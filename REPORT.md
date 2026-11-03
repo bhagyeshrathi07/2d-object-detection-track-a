@@ -19,7 +19,7 @@ independent, minimal re-implementation in `src/`). All code, per-run metric
 files, figures and the original console logs of every run are published at
 <https://github.com/bhagyeshrathi07/2d-object-detection-track-a> (the logs are
 in `results/logs/`; see Appendix A and `README.md`). The 1.2 GB of cached raw
-detections is submitted separately because it exceeds GitHub's file-size limit.
+detections exceeds GitHub's file-size limit and is available on request.
 
 ---
 
@@ -560,13 +560,13 @@ Everything in §2 was produced by the submitted code on the machine in §1.1.
 Three kinds of artefacts back the numbers. The first two are in the public
 GitHub repository <https://github.com/bhagyeshrathi07/2d-object-detection-track-a>
 together with the code and this report; the third is too large for GitHub and
-is submitted separately.
+is available on request.
 
 | Artefact | Location | What it proves |
 |---|---|---|
 | Per-run metric files (19) | `results/metrics/<model>__<dataset>.json` (GitHub) | every metric in §2, plus model config, measured latency, peak GPU memory, hardware, library versions and the exact command of that run |
 | Console logs of the job chains (unedited) | `results/logs/run_coco.log`, `run_rest.log`, `run_extra.log`, `fetch_kitti.log` (GitHub) | timestamps, per-500-image latency progress, `pycocotools` summary blocks, checkpoint downloads (progress bars stripped) |
-| Cached raw detections (19 files, 1.2 GB) | `results/raw/` (separate archive) | every box the detectors produced; all KITTI tables can be regenerated on CPU with `evaluate.py --rescore-only`, `kitti_difficulty.py`, `cyclist_fusion.py`, `failure_examples.py` |
+| Cached raw detections (19 files, 1.2 GB) | `results/raw/` (available on request) | every box the detectors produced; all KITTI tables can be regenerated on CPU with `evaluate.py --rescore-only`, `kitti_difficulty.py`, `cyclist_fusion.py`, `failure_examples.py` |
 
 **A.1 Console excerpt** — Faster R-CNN v2 on KITTI, from `results/logs/run_rest.log`
 (the COCO run of the same model, in `run_coco.log`, ends with `AP = 0.469`,
