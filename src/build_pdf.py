@@ -197,7 +197,8 @@ h4 { font-size: 10.5pt; margin: 10pt 0 4pt 0; }
 .cover h1 {
   font-size: 21pt; font-weight: 700; margin: 4pt 0 2pt 0; color: var(--accent);
 }
-.cover .subtitle { font-size: 11.5pt; color: var(--muted); margin: 0 0 6pt 0; font-weight: 400; }
+.cover .subtitle { font-size: 11.5pt; color: var(--muted); margin: 0 0 4pt 0; font-weight: 400; }
+.cover .author { font-size: 9.5pt; color: var(--ink); font-weight: 600; margin: 0 0 4pt 0; }
 .cover .bar { height: 3px; width: 50mm; background: linear-gradient(90deg, var(--accent), var(--accent-2)); margin: 2pt 0 8pt 0; border-radius: 2px; }
 .cover .abstract { font-size: 9.2pt; line-height: 1.4; text-align: justify; }
 .cover .abstract p { margin-bottom: 5pt; }
@@ -311,17 +312,18 @@ def embed_remaining_images(html: str) -> str:
     return re.sub(r'<img src="(?!data:)([^"]+)"', repl, html)
 
 
-def split_front_matter(md_text: str) -> tuple[str, list[str], str, str]:
-    """Return (title, abstract paragraphs, starting-point paragraph, body markdown)."""
+def split_front_matter(md_text: str) -> tuple[str, str, list[str], str, str]:
+    """Return (title, author line, abstract paragraphs, starting-point paragraph, body markdown)."""
     lines = md_text.splitlines()
     assert lines[0].startswith("# ")
     title = lines[0][2:].strip()
     body_start = next(i for i, l in enumerate(lines) if l.startswith("## "))
     front = "\n".join(lines[1:body_start]).strip()
     paras = [p.strip() for p in re.split(r"\n\s*\n", front) if p.strip() and p.strip() != "---"]
-    abstract = [p for p in paras if not p.startswith("Starting point")]
+    author = next((p[len("Author:"):].strip() for p in paras if p.startswith("Author:")), "")
+    abstract = [p for p in paras if not p.startswith(("Starting point", "Author:"))]
     starting = next((p for p in paras if p.startswith("Starting point")), "")
-    return title, abstract, starting, "\n".join(lines[body_start:])
+    return title, author, abstract, starting, "\n".join(lines[body_start:])
 
 
 def render_markdown(md: MarkdownIt, text: str) -> tuple[str, list[tuple[int, str, str]]]:
@@ -380,7 +382,7 @@ def build_html(md_path: Path) -> str:
     md = MarkdownIt("commonmark", {"html": True, "typographer": False}).enable("table")
     text = md_path.read_text(encoding="utf-8")
     text, captions = replace_figure_table(text)
-    title, abstract, starting, body = split_front_matter(text)
+    title, author, abstract, starting, body = split_front_matter(text)
 
     body_html, headings = render_markdown(md, body)
     body_html = embed_remaining_images(body_html)
@@ -416,6 +418,7 @@ def build_html(md_path: Path) -> str:
   <div class="kicker-row"><div class="kicker">Assignment 1 · Technical report</div><div class="date">{today}</div></div>
   <h1>{main_title}</h1>
   <div class="subtitle">{sub}</div>
+  <div class="author">{md.renderInline(author)}</div>
   <div class="bar"></div>
   <div class="abstract">{abstract_html}</div>
   <div class="meta">

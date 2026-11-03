@@ -1,5 +1,7 @@
 # 2D Object Detection — Track A: Experimental Model Evaluation
 
+Author: Bhagyesh Rathi · SJSU ID 014764893
+
 Zero-shot evaluation of seven COCO-pretrained detector configurations from five
 detector families on COCO val2017 and on the KITTI 2D object-detection benchmark,
 without any training or fine-tuning. The study measures accuracy (COCO-style
