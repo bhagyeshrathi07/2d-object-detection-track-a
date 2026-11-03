@@ -336,7 +336,8 @@ def build_html(md_path: Path) -> str:
     fig_items = "".join(
         f'<li class="l3"><a href="#fig-{i}">{c}</a></li>' for i, c in enumerate(captions, 1)
     )
-    today = dt.datetime.fromtimestamp(md_path.stat().st_mtime).strftime("%B %Y")
+    stamp = dt.datetime.fromtimestamp(md_path.stat().st_mtime)
+    today = f"{stamp:%B} {stamp.day}, {stamp.year}"
 
     return f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
