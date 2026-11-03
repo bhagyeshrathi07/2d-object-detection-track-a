@@ -9,7 +9,7 @@ Repository: <https://github.com/bhagyeshrathi07/2d-object-detection-track-a>
 1.2 GB `results/raw/` detection cache, which exceeds GitHub's file-size limit.
 
 * **[REPORT.md](REPORT.md)** — the write-up: setup, label mapping, results, analysis.
-* `results/summary.md` — all result tables (auto-generated).
+* `results/summary.md` — all result tables (written by `src/make_report.py`).
 * `results/kitti_extra.md` — KITTI Easy/Moderate/Hard breakdown and rider-as-person analysis.
 * `results/cyclist_fusion.md` — why cyclist AP is ~0 and a rider+bike fusion fix.
 * `results/figures/*.png` — plots; `failure_examples.png` is the qualitative failure figure.
