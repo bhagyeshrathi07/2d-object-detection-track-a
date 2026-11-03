@@ -1,0 +1,274 @@
+﻿rest done 2026-10-30T22:36:15
+model: {
+ "name": "yolo11m",
+ "family": "YOLO11 (one-stage, anchor-free)",
+ "framework": "ultralytics 8.4.194 / torch 2.11.0+cu128",
+ "checkpoint": "yolo11m.pt",
+ "input_resolution": "letterboxed to 1280 (longest side)",
+ "score_thr": 0.001,
+ "nms_thr": 0.7,
+ "max_det": 300,
+ "precision": "fp32",
+ "vocab": null
+}
+loading annotations into memory...
+Done (t=0.07s)
+creating index...
+index created!
+  500/3769  mean latency 16.0 ms
+  1000/3769  mean latency 16.1 ms
+  1500/3769  mean latency 16.2 ms
+  2000/3769  mean latency 16.3 ms
+  2500/3769  mean latency 16.2 ms
+  3000/3769  mean latency 16.2 ms
+  3500/3769  mean latency 16.1 ms
+cached 484308 raw detections -> C:\Users\bhagy\Documents\IA-systems\Assignment_1\results\raw\yolo11m_1280__kitti.json
+=== yolo11m_1280 on kitti [driving3] ===
+loading annotations into memory...
+Done (t=0.07s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=0.57s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=13.47s).
+Accumulating evaluation results...
+DONE (t=1.64s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.242
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.464
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.231
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.178
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.223
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.300
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.101
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.317
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.349
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.350
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.334
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.371
+=== yolo11m_1280 on kitti [driving5] ===
+loading annotations into memory...
+Done (t=0.08s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=0.60s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=13.22s).
+Accumulating evaluation results...
+DONE (t=1.73s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.229
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.416
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.229
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.187
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.221
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.289
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.199
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.411
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.435
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.467
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.413
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.441
+saved C:\Users\bhagy\Documents\IA-systems\Assignment_1\results\metrics\yolo11m_1280__kitti.json
+model: {
+ "name": "rtdetr-l",
+ "family": "RT-DETR (real-time DETR, transformer, NMS-free)",
+ "framework": "ultralytics 8.4.194 / torch 2.11.0+cu128",
+ "checkpoint": "rtdetr-l.pt",
+ "input_resolution": "letterboxed to 1280 (longest side)",
+ "score_thr": 0.001,
+ "nms_thr": null,
+ "max_det": 300,
+ "precision": "fp32",
+ "vocab": null
+}
+loading annotations into memory...
+Done (t=0.07s)
+creating index...
+index created!
+  500/3769  mean latency 60.5 ms
+  1000/3769  mean latency 60.5 ms
+  1500/3769  mean latency 60.4 ms
+  2000/3769  mean latency 60.6 ms
+  2500/3769  mean latency 60.6 ms
+  3000/3769  mean latency 60.6 ms
+  3500/3769  mean latency 60.5 ms
+cached 1130700 raw detections -> C:\Users\bhagy\Documents\IA-systems\Assignment_1\results\raw\rtdetr-l_1280__kitti.json
+=== rtdetr-l_1280 on kitti [driving3] ===
+loading annotations into memory...
+Done (t=0.07s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=1.17s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=18.99s).
+Accumulating evaluation results...
+DONE (t=3.25s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.247
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.450
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.241
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.183
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.232
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.328
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.112
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.343
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.428
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.411
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.403
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.481
+=== rtdetr-l_1280 on kitti [driving5] ===
+loading annotations into memory...
+Done (t=0.08s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=0.76s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=22.77s).
+Accumulating evaluation results...
+DONE (t=3.94s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.261
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.440
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.269
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.267
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.256
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.333
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.218
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.437
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.514
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.525
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.487
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.546
+saved C:\Users\bhagy\Documents\IA-systems\Assignment_1\results\metrics\rtdetr-l_1280__kitti.json
+model: {
+ "name": "yolo11n",
+ "family": "YOLO11 (one-stage, anchor-free)",
+ "framework": "ultralytics 8.4.194 / torch 2.11.0+cu128",
+ "checkpoint": "yolo11n.pt",
+ "input_resolution": "letterboxed to 1280 (longest side)",
+ "score_thr": 0.001,
+ "nms_thr": 0.7,
+ "max_det": 300,
+ "precision": "fp32",
+ "vocab": null
+}
+loading annotations into memory...
+Done (t=0.07s)
+creating index...
+index created!
+  500/3769  mean latency 11.2 ms
+  1000/3769  mean latency 11.2 ms
+  1500/3769  mean latency 11.2 ms
+  2000/3769  mean latency 11.4 ms
+  2500/3769  mean latency 11.4 ms
+  3000/3769  mean latency 11.4 ms
+  3500/3769  mean latency 11.4 ms
+cached 806963 raw detections -> C:\Users\bhagy\Documents\IA-systems\Assignment_1\results\raw\yolo11n_1280__kitti.json
+=== yolo11n_1280 on kitti [driving3] ===
+loading annotations into memory...
+Done (t=0.07s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=0.82s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=15.96s).
+Accumulating evaluation results...
+DONE (t=2.53s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.235
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.452
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.223
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.156
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.220
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.299
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.099
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.307
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.353
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.318
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.353
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.389
+=== yolo11n_1280 on kitti [driving5] ===
+loading annotations into memory...
+Done (t=0.08s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=0.86s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=16.17s).
+Accumulating evaluation results...
+DONE (t=3.12s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.206
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.384
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.203
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.153
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.187
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.281
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.170
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.375
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.411
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.421
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.390
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.445
+saved C:\Users\bhagy\Documents\IA-systems\Assignment_1\results\metrics\yolo11n_1280__kitti.json
+fasterrcnn_resnet50_fpn_v2       all 0.237 | easy 0.348 mod 0.298 hard 0.239 | person AP 0.212 -> 0.249 with rider boxes ignored
+fcos_resnet50_fpn                all 0.230 | easy 0.343 mod 0.291 hard 0.235 | person AP 0.192 -> 0.231 with rider boxes ignored
+retinanet_resnet50_fpn_v2        all 0.234 | easy 0.345 mod 0.295 hard 0.240 | person AP 0.203 -> 0.245 with rider boxes ignored
+rtdetr-l_1280                    all 0.247 | easy 0.337 mod 0.299 hard 0.249 | person AP 0.217 -> 0.251 with rider boxes ignored
+rtdetr-l                         all 0.243 | easy 0.358 mod 0.304 hard 0.248 | person AP 0.206 -> 0.234 with rider boxes ignored
+yolo11m_1280                     all 0.242 | easy 0.357 mod 0.305 hard 0.247 | person AP 0.212 -> 0.242 with rider boxes ignored
+yolo11m                          all 0.232 | easy 0.351 mod 0.295 hard 0.240 | person AP 0.200 -> 0.229 with rider boxes ignored
+yolo11n_1280                     all 0.235 | easy 0.351 mod 0.296 hard 0.241 | person AP 0.204 -> 0.234 with rider boxes ignored
+yolo11n                          all 0.205 | easy 0.326 mod 0.260 hard 0.212 | person AP 0.177 -> 0.200 with rider boxes ignored
+yolov8s-worldv2                  all 0.223 | easy 0.333 mod 0.277 hard 0.227 | person AP 0.182 -> 0.219 with rider boxes ignored
+yolov8s-worldv2_kittiprompts     all 0.210 | easy 0.308 mod 0.257 hard 0.214 | person AP 0.116 -> 0.138 with rider boxes ignored
+## KITTI difficulty breakdown (driving3 mAP@[.5:.95], GT outside the level treated as ignore)
+| Model | all | Easy | Moderate | Hard | vehicle E/M/H AP50 | person E/M/H AP50 | cyclist E/M/H AP50 |
+|---|---|---|---|---|---|---|---|
+| fasterrcnn_resnet50_fpn_v2 | 0.237 | 0.348 | 0.298 | 0.239 | 0.96/0.94/0.85 | 0.71/0.63/0.51 | 0.01/0.01/0.01 |
+| fcos_resnet50_fpn | 0.230 | 0.343 | 0.291 | 0.235 | 0.98/0.95/0.85 | 0.64/0.58/0.47 | 0.01/0.02/0.02 |
+| retinanet_resnet50_fpn_v2 | 0.234 | 0.345 | 0.295 | 0.240 | 0.98/0.95/0.86 | 0.67/0.63/0.51 | 0.01/0.01/0.01 |
+| rtdetr-l_1280 | 0.247 | 0.337 | 0.299 | 0.249 | 0.88/0.88/0.81 | 0.67/0.61/0.51 | 0.02/0.03/0.03 |
+| rtdetr-l | 0.243 | 0.358 | 0.304 | 0.248 | 0.98/0.96/0.87 | 0.72/0.63/0.50 | 0.01/0.01/0.01 |
+| yolo11m_1280 | 0.242 | 0.357 | 0.305 | 0.247 | 0.97/0.95/0.86 | 0.76/0.68/0.55 | 0.01/0.01/0.01 |
+| yolo11m | 0.232 | 0.351 | 0.295 | 0.240 | 0.98/0.95/0.86 | 0.71/0.63/0.51 | 0.01/0.00/0.00 |
+| yolo11n_1280 | 0.235 | 0.351 | 0.296 | 0.241 | 0.98/0.94/0.85 | 0.72/0.65/0.52 | 0.01/0.01/0.01 |
+| yolo11n | 0.205 | 0.326 | 0.260 | 0.212 | 0.97/0.89/0.80 | 0.63/0.55/0.45 | 0.01/0.00/0.00 |
+| yolov8s-worldv2 | 0.223 | 0.333 | 0.277 | 0.227 | 0.97/0.92/0.82 | 0.59/0.53/0.44 | 0.02/0.01/0.01 |
+| yolov8s-worldv2_kittiprompts | 0.210 | 0.308 | 0.257 | 0.214 | 0.97/0.92/0.83 | 0.39/0.36/0.30 | 0.17/0.11/0.11 |
+## Rider-as-person mismatch (driving3)
+| Model | person AP | person AP, rider boxes ignored | person AP50 | person AP50, rider ignored |
+|---|---|---|---|---|
+| fasterrcnn_resnet50_fpn_v2 | 0.212 | 0.249 | 0.501 | 0.594 |
+| fcos_resnet50_fpn | 0.192 | 0.231 | 0.460 | 0.558 |
+| retinanet_resnet50_fpn_v2 | 0.203 | 0.245 | 0.499 | 0.607 |
+| rtdetr-l_1280 | 0.217 | 0.251 | 0.499 | 0.583 |
+| rtdetr-l | 0.206 | 0.234 | 0.490 | 0.561 |
+| yolo11m_1280 | 0.212 | 0.242 | 0.525 | 0.601 |
+| yolo11m | 0.200 | 0.229 | 0.488 | 0.563 |
+| yolo11n_1280 | 0.204 | 0.234 | 0.506 | 0.584 |
+| yolo11n | 0.177 | 0.200 | 0.437 | 0.495 |
+| yolov8s-worldv2 | 0.182 | 0.219 | 0.430 | 0.516 |
+| yolov8s-worldv2_kittiprompts | 0.116 | 0.138 | 0.297 | 0.354 |
+wrote results/summary.md
+figures -> C:\Users\bhagy\Documents\IA-systems\Assignment_1\results\figures
+EXTRA DONE 2026-10-30T23:02:03

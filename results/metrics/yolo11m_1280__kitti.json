@@ -1,0 +1,108 @@
+{
+ "model": {
+  "name": "yolo11m",
+  "family": "YOLO11 (one-stage, anchor-free)",
+  "framework": "ultralytics 8.4.194 / torch 2.11.0+cu128",
+  "checkpoint": "yolo11m.pt",
+  "input_resolution": "letterboxed to 1280 (longest side)",
+  "score_thr": 0.001,
+  "nms_thr": 0.7,
+  "max_det": 300,
+  "precision": "fp32",
+  "vocab": null
+ },
+ "dataset": "kitti",
+ "split": "KITTI 2D object detection 'training' set (7,481 labeled frames); no training done",
+ "n_images": 3769,
+ "timing": {
+  "n_images": 3769,
+  "latency_ms_mean": 16.11588880339929,
+  "latency_ms_median": 15.887599998677615,
+  "latency_ms_p90": 16.563520001000143,
+  "fps_from_median": 62.94216874060486,
+  "wall_s": 85.13351750000038,
+  "peak_gpu_mem_MB": 212.63232421875,
+  "peak_gpu_reserved_MB": 300.0
+ },
+ "metrics": {
+  "driving3": {
+   "mAP": 0.24154796030815223,
+   "AP50": 0.46413789121043886,
+   "AP75": 0.23085356349601208,
+   "AP_small": 0.17774496052874952,
+   "AP_medium": 0.22328269369875284,
+   "AP_large": 0.2998898233611207,
+   "AR_1": 0.10126103757224161,
+   "AR_10": 0.317238049480094,
+   "AR_100": 0.34887003237270053,
+   "AR_small": 0.35028358648133656,
+   "AR_medium": 0.33386488476716586,
+   "AR_large": 0.3713592084710579,
+   "per_class": {
+    "vehicle": {
+     "AP": 0.5110480068224779,
+     "AP50": 0.8548518066485312,
+     "n_gt": 16895
+    },
+    "person": {
+     "AP": 0.21198425432537016,
+     "AP50": 0.5245876006996139,
+     "n_gt": 2446
+    },
+    "cyclist": {
+     "AP": 0.0016116197766086902,
+     "AP50": 0.012974266283171283,
+     "n_gt": 893
+    }
+   },
+   "n_detections_scored": 333734
+  },
+  "driving5": {
+   "mAP": 0.2285192818992022,
+   "AP50": 0.41553640999121616,
+   "AP75": 0.22929368103389622,
+   "AP_small": 0.18738599685658863,
+   "AP_medium": 0.22054761958089952,
+   "AP_large": 0.28929354532828355,
+   "AR_1": 0.19863389170334494,
+   "AR_10": 0.4111540994288834,
+   "AR_100": 0.4348841368553035,
+   "AR_small": 0.46707392458286057,
+   "AR_medium": 0.41328463429973217,
+   "AR_large": 0.44063254882092406,
+   "per_class": {
+    "car": {
+     "AP": 0.48535996339071613,
+     "AP50": 0.8138529029350158,
+     "n_gt": 16002
+    },
+    "truck": {
+     "AP": 0.21488570141527125,
+     "AP50": 0.3099364714249368,
+     "n_gt": 606
+    },
+    "person": {
+     "AP": 0.21221976463204953,
+     "AP50": 0.5253815353106643,
+     "n_gt": 2446
+    },
+    "cyclist": {
+     "AP": 0.0016116981587719068,
+     "AP50": 0.01297473029424761,
+     "n_gt": 893
+    }
+   },
+   "n_detections_scored": 332069
+  }
+ },
+ "hardware": {
+  "gpu": "NVIDIA GeForce RTX 5060",
+  "cpu": "Intel64 Family 6 Model 198 Stepping 2, GenuineIntel",
+  "os": "Windows-11-10.0.26300-SP0",
+  "python": "3.12.10",
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "cudnn": 91900
+ },
+ "command": "src\\evaluate.py --model ul:yolo11m.pt --dataset kitti --imgsz 1280"
+}

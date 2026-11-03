@@ -1,0 +1,107 @@
+{
+ "model": {
+  "name": "retinanet_resnet50_fpn_v2",
+  "family": "RetinaNet (one-stage, anchor-based)",
+  "framework": "torchvision 0.26.0+cu128 / torch 2.11.0+cu128",
+  "checkpoint": "RetinaNet_ResNet50_FPN_V2_Weights.COCO_V1",
+  "input_resolution": "shorter side 800, longer side <= 1333 (aspect preserved)",
+  "score_thr": 0.001,
+  "nms_thr": 0.5,
+  "max_det": 300,
+  "precision": "fp32"
+ },
+ "dataset": "kitti",
+ "split": "KITTI 2D object detection 'training' set (7,481 labeled frames); no training done",
+ "n_images": 3769,
+ "timing": {
+  "n_images": 3769,
+  "latency_ms_mean": 40.3613788007387,
+  "latency_ms_median": 40.04680000070948,
+  "latency_ms_p90": 41.398640000261366,
+  "fps_from_median": 24.970784182064076,
+  "wall_s": 177.92724330000055,
+  "peak_gpu_mem_MB": 341.15869140625,
+  "peak_gpu_reserved_MB": 474.0
+ },
+ "metrics": {
+  "driving3": {
+   "mAP": 0.23402175364503128,
+   "AP50": 0.45645986364880725,
+   "AP75": 0.2170089807335155,
+   "AP_small": 0.1603296415190627,
+   "AP_medium": 0.21288814636145062,
+   "AP_large": 0.3076137305085882,
+   "AR_1": 0.10978097076386942,
+   "AR_10": 0.33167584533031796,
+   "AR_100": 0.39445668408106493,
+   "AR_small": 0.3438824987761985,
+   "AR_medium": 0.38707942931987893,
+   "AR_large": 0.4603765621448909,
+   "per_class": {
+    "vehicle": {
+     "AP": 0.49500926125535494,
+     "AP50": 0.8519416836281396,
+     "n_gt": 16895
+    },
+    "person": {
+     "AP": 0.20323135995748465,
+     "AP50": 0.49851200710734145,
+     "n_gt": 2446
+    },
+    "cyclist": {
+     "AP": 0.003824639722254351,
+     "AP50": 0.018925900210940927,
+     "n_gt": 893
+    }
+   },
+   "n_detections_scored": 716105
+  },
+  "driving5": {
+   "mAP": 0.22711405713049185,
+   "AP50": 0.41787952153465585,
+   "AP75": 0.22440437522399975,
+   "AP_small": 0.23522167390821175,
+   "AP_medium": 0.2110328602424583,
+   "AP_large": 0.3100640266819136,
+   "AR_1": 0.20776030370466264,
+   "AR_10": 0.4147183035273624,
+   "AR_100": 0.47105806741692113,
+   "AR_small": 0.45554285640620673,
+   "AR_medium": 0.45226418893398285,
+   "AR_large": 0.5249439734944319,
+   "per_class": {
+    "car": {
+     "AP": 0.4871110841076664,
+     "AP50": 0.841683663979665,
+     "n_gt": 16002
+    },
+    "truck": {
+     "AP": 0.21384903719102605,
+     "AP50": 0.31075646548899166,
+     "n_gt": 606
+    },
+    "person": {
+     "AP": 0.2036712237250299,
+     "AP50": 0.500150902404155,
+     "n_gt": 2446
+    },
+    "cyclist": {
+     "AP": 0.0038248834982449703,
+     "AP50": 0.018927054265811982,
+     "n_gt": 893
+    }
+   },
+   "n_detections_scored": 686351
+  }
+ },
+ "hardware": {
+  "gpu": "NVIDIA GeForce RTX 5060",
+  "cpu": "Intel64 Family 6 Model 198 Stepping 2, GenuineIntel",
+  "os": "Windows-11-10.0.26300-SP0",
+  "python": "3.12.10",
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "cudnn": 91900
+ },
+ "command": "src\\evaluate.py --model tv:retinanet_resnet50_fpn_v2 --dataset kitti"
+}

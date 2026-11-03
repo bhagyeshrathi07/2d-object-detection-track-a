@@ -1,0 +1,107 @@
+{
+ "model": {
+  "name": "fcos_resnet50_fpn",
+  "family": "FCOS (one-stage, anchor-free)",
+  "framework": "torchvision 0.26.0+cu128 / torch 2.11.0+cu128",
+  "checkpoint": "FCOS_ResNet50_FPN_Weights.COCO_V1",
+  "input_resolution": "shorter side 800, longer side <= 1333 (aspect preserved)",
+  "score_thr": 0.001,
+  "nms_thr": 0.6,
+  "max_det": 100,
+  "precision": "fp32"
+ },
+ "dataset": "kitti",
+ "split": "KITTI 2D object detection 'training' set (7,481 labeled frames); no training done",
+ "n_images": 3769,
+ "timing": {
+  "n_images": 3769,
+  "latency_ms_mean": 39.539177633315056,
+  "latency_ms_median": 37.00380000009318,
+  "latency_ms_p90": 53.39969999949972,
+  "fps_from_median": 27.024251563284903,
+  "wall_s": 172.89483610000025,
+  "peak_gpu_mem_MB": 283.28662109375,
+  "peak_gpu_reserved_MB": 316.0
+ },
+ "metrics": {
+  "driving3": {
+   "mAP": 0.22967679552260406,
+   "AP50": 0.4433889943505749,
+   "AP75": 0.21788835696880623,
+   "AP_small": 0.159394324333144,
+   "AP_medium": 0.20514914022899183,
+   "AP_large": 0.3023837198742103,
+   "AR_1": 0.11332678722777653,
+   "AR_10": 0.34036081704216997,
+   "AR_100": 0.37571352786997164,
+   "AR_small": 0.3406127185519736,
+   "AR_medium": 0.3682680119889262,
+   "AR_large": 0.40621073508083866,
+   "per_class": {
+    "vehicle": {
+     "AP": 0.49144950932865744,
+     "AP50": 0.8482979347218532,
+     "n_gt": 16895
+    },
+    "person": {
+     "AP": 0.19203852314051012,
+     "AP50": 0.45952699585630274,
+     "n_gt": 2446
+    },
+    "cyclist": {
+     "AP": 0.005542354098644795,
+     "AP50": 0.022342052473568564,
+     "n_gt": 893
+    }
+   },
+   "n_detections_scored": 281036
+  },
+  "driving5": {
+   "mAP": 0.22202063163946317,
+   "AP50": 0.4068587769526319,
+   "AP75": 0.2243295483776,
+   "AP_small": 0.22938638121598806,
+   "AP_medium": 0.19108746368179705,
+   "AP_large": 0.2987541241829331,
+   "AR_1": 0.21075282680293667,
+   "AR_10": 0.4141372357765857,
+   "AR_100": 0.4431177259811692,
+   "AR_small": 0.4473951327706204,
+   "AR_medium": 0.42165352099721864,
+   "AR_large": 0.4686039242174628,
+   "per_class": {
+    "car": {
+     "AP": 0.48734730415069516,
+     "AP50": 0.8464507083072487,
+     "n_gt": 16002
+    },
+    "truck": {
+     "AP": 0.20273121535448768,
+     "AP50": 0.2977525534087955,
+     "n_gt": 606
+    },
+    "person": {
+     "AP": 0.19246162156012145,
+     "AP50": 0.46088964167493984,
+     "n_gt": 2446
+    },
+    "cyclist": {
+     "AP": 0.005542385492548312,
+     "AP50": 0.022342204419543422,
+     "n_gt": 893
+    }
+   },
+   "n_detections_scored": 276356
+  }
+ },
+ "hardware": {
+  "gpu": "NVIDIA GeForce RTX 5060",
+  "cpu": "Intel64 Family 6 Model 198 Stepping 2, GenuineIntel",
+  "os": "Windows-11-10.0.26300-SP0",
+  "python": "3.12.10",
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "cudnn": 91900
+ },
+ "command": "src\\evaluate.py --model tv:fcos_resnet50_fpn --dataset kitti"
+}

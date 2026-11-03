@@ -1,0 +1,920 @@
+﻿fetch done 2026-10-30T21:25:53
+checked 2709 files, removed 0
+3769 frames requested, 1057 still to fetch, 24 workers
+  100/1057 done, 2.47 img/s, eta 6.5 min
+  200/1057 done, 3.34 img/s, eta 4.3 min
+  300/1057 done, 3.56 img/s, eta 3.5 min
+python :   006287: ProtocolError('Connection broken: IncompleteRead(16949 bytes read, 778743 more expected)', 
+IncompleteRead(16949 bytes read, 778743 more expected)) (attempt 0)
+  006301: RemoteIOError("('Connection aborted.', ConnectionAbortedError(10053, 'An established connection was aborted 
+by the software in your host machine', None, 10053, None))") (attempt 0)
+  006302: RemoteIOError("('Connection aborted.', ConnectionAbortedError(10053, 'An established connection was aborted 
+by the software in your host machine', None, 10053, None))") (attempt 0)
+  006297: RemoteIOError("('Connection aborted.', RemoteDisconnected('Remote end closed connection without 
+response'))") (attempt 0)
+  006270: ProtocolError('Connection broken: IncompleteRead(330293 bytes read, 505898 more expected)', 
+IncompleteRead(330293 bytes read, 505898 more expected)) (attempt 0)
+  006300: RemoteIOError("('Connection aborted.', RemoteDisconnected('Remote end closed connection without 
+response'))") (attempt 0)
+  006267: ProtocolError('Connection broken: IncompleteRead(435200 bytes read, 298499 more expected)', 
+IncompleteRead(435200 bytes read, 298499 more expected)) (attempt 0)
+  006232: ProtocolError('Connection broken: IncompleteRead(851509 bytes read, 11629 more expected)', 
+IncompleteRead(851509 bytes read, 11629 more expected)) (attempt 0)
+  006280: ProtocolError('Connection broken: IncompleteRead(103989 bytes read, 574964 more expected)', 
+IncompleteRead(103989 bytes read, 574964 more expected)) (attempt 0)
+  006288: ProtocolError('Connection broken: IncompleteRead(16949 bytes read, 766558 more expected)', 
+IncompleteRead(16949 bytes read, 766558 more expected)) (attempt 0)
+  006306: RemoteIOError("('Connection aborted.', ConnectionAbortedError(10053, 'An established connection was aborted 
+by the software in your host machine', None, 10053, None))") (attempt 0)
+  006273: ProtocolError('Connection broken: IncompleteRead(262992 bytes read, 506668 more expected)', 
+IncompleteRead(262992 bytes read, 506668 more expected)) (attempt 0)
+  006265: ProtocolError('Connection broken: IncompleteRead(504375 bytes read, 313007 more expected)', 
+IncompleteRead(504375 bytes read, 313007 more expected)) (attempt 0)
+  006305: RemoteIOError("('Connection aborted.', ConnectionAbortedError(10053, 'An established connection was aborted 
+by the software in your host machine', None, 10053, None))") (attempt 0)
+  006278: ProtocolError('Connection broken: IncompleteRead(103989 bytes read, 737938 more expected)', 
+IncompleteRead(103989 bytes read, 737938 more expected)) (attempt 0)
+  006286: ProtocolError('Connection broken: IncompleteRead(9140 bytes read, 757796 more expected)', 
+IncompleteRead(9140 bytes read, 757796 more expected)) (attempt 0)
+  006263: ProtocolError('Connection broken: IncompleteRead(469557 bytes read, 407698 more expected)', 
+IncompleteRead(469557 bytes read, 407698 more expected)) (attempt 0)
+  006247: ProtocolError('Connection broken: IncompleteRead(556597 bytes read, 143388 more expected)', 
+IncompleteRead(556597 bytes read, 143388 more expected)) (attempt 0)
+  006258: ProtocolError('Connection broken: IncompleteRead(503293 bytes read, 383479 more expected)', 
+IncompleteRead(503293 bytes read, 383479 more expected)) (attempt 0)
+  006276: ProtocolError('Connection broken: IncompleteRead(173623 bytes read, 670941 more expected)', 
+IncompleteRead(173623 bytes read, 670941 more expected)) (attempt 0)
+  006240: ProtocolError('Connection broken: IncompleteRead(817717 bytes read, 76509 more expected)', 
+IncompleteRead(817717 bytes read, 76509 more expected)) (attempt 0)
+  006228: ProtocolError('Connection broken: IncompleteRead(765493 bytes read, 131286 more expected)', 
+IncompleteRead(765493 bytes read, 131286 more expected)) (attempt 0)
+  006250: ProtocolError('Connection broken: IncompleteRead(469559 bytes read, 249243 more expected)', 
+IncompleteRead(469559 bytes read, 249243 more expected)) (attempt 0)
+  006312: RemoteIOError('HTTPSConnectionPool(host=\'s3.eu-central-1.amazonaws.com\', port=443): Max retries exceeded 
+with url: /avg-kitti/data_object_image_2.zip (Caused by 
+NewConnectionError("HTTPSConnection(host=\'s3.eu-central-1.amazonaws.com\', port=443): Failed to establish a new 
+connection: [WinError 10051] A socket operation was attempted to an unreachable network"))') (attempt 0)
+  400/1057 done, 2.92 img/s, eta 3.8 min
+  006354: ProtocolError('Connection broken: IncompleteRead(328209 bytes read, 564833 more expected)', 
+IncompleteRead(328209 bytes read, 564833 more expected)) (attempt 0)
+  006357: ProtocolError('Connection broken: IncompleteRead(539191 bytes read, 278300 more expected)', 
+IncompleteRead(539191 bytes read, 278300 more expected)) (attempt 0)
+  006386: ProtocolError('Connection broken: IncompleteRead(173621 bytes read, 609742 more expected)', 
+IncompleteRead(173621 bytes read, 609742 more expected)) (attempt 0)
+  006396: ProtocolError('Connection broken: IncompleteRead(46938 bytes read, 756541 more expected)', 
+IncompleteRead(46938 bytes read, 756541 more expected)) (attempt 0)
+  006360: ProtocolError('Connection broken: IncompleteRead(381497 bytes read, 452134 more expected)', 
+IncompleteRead(381497 bytes read, 452134 more expected)) (attempt 0)
+  006355: ProtocolError('Connection broken: IncompleteRead(485941 bytes read, 418221 more expected)', 
+IncompleteRead(485941 bytes read, 418221 more expected)) (attempt 0)
+  006385: ProtocolError('Connection broken: IncompleteRead(278528 bytes read, 568546 more expected)', 
+IncompleteRead(278528 bytes read, 568546 more expected)) (attempt 0)
+  006403: ProtocolError('Connection broken: IncompleteRead(69632 bytes read, 775569 more expected)', 
+IncompleteRead(69632 bytes read, 775569 more expected)) (attempt 0)
+  006405: ProtocolError('Connection broken: IncompleteRead(34357 bytes read, 785944 more expected)', 
+IncompleteRead(34357 bytes read, 785944 more expected)) (attempt 0)
+  006407: RemoteIOError("('Connection aborted.', ConnectionAbortedError(10053, 'An established connection was aborted 
+by the software in your host machine', None, 10053, None))") (attempt 0)
+  006395: ProtocolError('Connection broken: IncompleteRead(103989 bytes read, 720292 more expected)', 
+IncompleteRead(103989 bytes read, 720292 more expected)) (attempt 0)
+  006406: RemoteIOError("('Connection aborted.', ConnectionAbortedError(10053, 'An established connection was aborted 
+by the software in your host machine', None, 10053, None))") (attempt 0)
+  006368: ProtocolError('Connection broken: IncompleteRead(417333 bytes read, 482575 more expected)', 
+IncompleteRead(417333 bytes read, 482575 more expected)) (attempt 0)
+  006364: ProtocolError('Connection broken: IncompleteRead(312885 bytes read, 498436 more expected)', 
+IncompleteRead(312885 bytes read, 498436 more expected)) (attempt 0)
+  006372: ProtocolError('Connection broken: IncompleteRead(312885 bytes read, 524751 more expected)', 
+IncompleteRead(312885 bytes read, 524751 more expected)) (attempt 0)
+  006377: ProtocolError('Connection broken: IncompleteRead(183458 bytes read, 654522 more expected)', 
+IncompleteRead(183458 bytes read, 654522 more expected)) (attempt 0)
+  006370: ProtocolError('Connection broken: IncompleteRead(278069 bytes read, 368911 more expected)', 
+IncompleteRead(278069 bytes read, 368911 more expected)) (attempt 0)
+  006394: ProtocolError('Connection broken: IncompleteRead(156213 bytes read, 533498 more expected)', 
+IncompleteRead(156213 bytes read, 533498 more expected)) (attempt 0)
+  006393: ProtocolError('Connection broken: IncompleteRead(138805 bytes read, 764471 more expected)', 
+IncompleteRead(138805 bytes read, 764471 more expected)) (attempt 0)
+  006380: ProtocolError('Connection broken: IncompleteRead(301508 bytes read, 482852 more expected)', 
+IncompleteRead(301508 bytes read, 482852 more expected)) (attempt 0)
+  006369: ProtocolError('Connection broken: IncompleteRead(243712 bytes read, 580491 more expected)', 
+IncompleteRead(243712 bytes read, 580491 more expected)) (attempt 0)
+  006371: ProtocolError('Connection broken: IncompleteRead(278069 bytes read, 559932 more expected)', 
+IncompleteRead(278069 bytes read, 559932 more expected)) (attempt 0)
+  006381: ProtocolError('Connection broken: IncompleteRead(208437 bytes read, 598798 more expected)', 
+IncompleteRead(208437 bytes read, 598798 more expected)) (attempt 0)
+  006391: ProtocolError('Connection broken: IncompleteRead(243253 bytes read, 600285 more expected)', 
+IncompleteRead(243253 bytes read, 600285 more expected)) (attempt 0)
+  006409: ProtocolError('Connection broken: IncompleteRead(16949 bytes read, 740760 more expected)', 
+IncompleteRead(16949 bytes read, 740760 more expected)) (attempt 0)
+  006394: ProtocolError('Connection broken: IncompleteRead(399922 bytes read, 1165656 more expected)', 
+IncompleteRead(399922 bytes read, 1165656 more expected)) (attempt 1)
+  006406: ProtocolError('Connection broken: IncompleteRead(69659 bytes read, 823427 more expected)', 
+IncompleteRead(69659 bytes read, 823427 more expected)) (attempt 1)
+  006385: RemoteIOError("('Connection aborted.', ConnectionAbortedError(10053, 'An established connection was aborted 
+by the software in your host machine', None, 10053, None))") (attempt 1)
+  006364: ProtocolError('Connection broken: IncompleteRead(0 bytes read, 811321 more expected)', IncompleteRead(0 
+bytes read, 811321 more expected)) (attempt 1)
+  006395: ProtocolError('Connection broken: IncompleteRead(243250 bytes read, 1322328 more expected)', 
+IncompleteRead(243250 bytes read, 1322328 more expected)) (attempt 1)
+  006391: ProtocolError('Connection broken: IncompleteRead(342031 bytes read, 1223547 more expected)', 
+IncompleteRead(342031 bytes read, 1223547 more expected)) (attempt 1)
+  006405: ProtocolError('Connection broken: IncompleteRead(237583 bytes read, 1327995 more expected)', 
+IncompleteRead(237583 bytes read, 1327995 more expected)) (attempt 1)
+  006396: ProtocolError('Connection broken: IncompleteRead(12122 bytes read, 791357 more expected)', 
+IncompleteRead(12122 bytes read, 791357 more expected)) (attempt 1)
+  006368: ProtocolError('Connection broken: IncompleteRead(399925 bytes read, 499983 more expected)', 
+IncompleteRead(399925 bytes read, 499983 more expected)) (attempt 1)
+  006410: RemoteIOError("('Connection aborted.', ConnectionAbortedError(10053, 'An established connection was aborted 
+by the software in your host machine', None, 10053, None))") (attempt 0)
+  006354: ProtocolError('Connection broken: IncompleteRead(260658 bytes read, 1304920 more expected)', 
+IncompleteRead(260658 bytes read, 1304920 more expected)) (attempt 1)
+  006371: ProtocolError('Connection broken: IncompleteRead(661045 bytes read, 176956 more expected)', 
+IncompleteRead(661045 bytes read, 176956 more expected)) (attempt 1)
+  006355: ProtocolError('Connection broken: IncompleteRead(399925 bytes read, 504237 more expected)', 
+IncompleteRead(399925 bytes read, 504237 more expected)) (attempt 1)
+  006360: ProtocolError('Connection broken: IncompleteRead(69177 bytes read, 764454 more expected)', 
+IncompleteRead(69177 bytes read, 764454 more expected)) (attempt 1)
+  006372: ProtocolError('Connection broken: IncompleteRead(167951 bytes read, 1397627 more expected)', 
+IncompleteRead(167951 bytes read, 1397627 more expected)) (attempt 1)
+  006407: ProtocolError('Connection broken: IncompleteRead(16951 bytes read, 817906 more expected)', 
+IncompleteRead(16951 bytes read, 817906 more expected)) (attempt 1)
+  006370: ProtocolError('Connection broken: IncompleteRead(202767 bytes read, 1362811 more expected)', 
+IncompleteRead(202767 bytes read, 1362811 more expected)) (attempt 1)
+  006411: RemoteIOError('HTTPSConnectionPool(host=\'s3.eu-central-1.amazonaws.com\', port=443): Max retries exceeded 
+with url: /avg-kitti/data_object_image_2.zip (Caused by 
+NewConnectionError("HTTPSConnection(host=\'s3.eu-central-1.amazonaws.com\', port=443): Failed to establish a new 
+connection: [WinError 10051] A socket operation was attempted to an unreachable network"))') (attempt 0)
+  006380: RemoteIOError('HTTPSConnectionPool(host=\'s3.eu-central-1.amazonaws.com\', port=443): Max retries exceeded 
+with url: /avg-kitti/data_object_image_2.zip (Caused by 
+NewConnectionError("HTTPSConnection(host=\'s3.eu-central-1.amazonaws.com\', port=443): Failed to establish a new 
+connection: [WinError 10051] A socket operation was attempted to an unreachable network"))') (attempt 1)
+  006369: RemoteIOError('HTTPSConnectionPool(host=\'s3.eu-central-1.amazonaws.com\', port=443): Max retries exceeded 
+with url: /avg-kitti/data_object_image_2.zip (Caused by 
+NewConnectionError("HTTPSConnection(host=\'s3.eu-central-1.amazonaws.com\', port=443): Failed to establish a new 
+connection: [WinError 10051] A socket operation was attempted to an unreachable network"))') (attempt 1)
+  006393: RemoteIOError("('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly 
+closed by the remote host', None, 10054, None))") (attempt 1)
+  006386: RemoteIOError("('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly 
+closed by the remote host', None, 10054, None))") (attempt 1)
+  006377: RemoteIOError("('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly 
+closed by the remote host', None, 10054, None))") (attempt 1)
+  500/1057 done, 2.68 img/s, eta 3.5 min
+  600/1057 done, 2.87 img/s, eta 2.7 min
+  700/1057 done, 3.03 img/s, eta 2.0 min
+  800/1057 done, 3.14 img/s, eta 1.4 min
+  900/1057 done, 3.28 img/s, eta 0.8 min
+  1000/1057 done, 3.38 img/s, eta 0.3 min
+finished 1057 files in 306 s; failed: []
+7481 KITTI training frames
+python.exe : Traceback (most recent call last):
+  File "C:\Users\bhagy\Documents\IA-systems\Assignment_1\src\kitti_to_coco.py", line 107, in <module>
+    build(Path(a.root), Path(a.out), a.max_images)
+  File "C:\Users\bhagy\Documents\IA-systems\Assignment_1\src\kitti_to_coco.py", line 47, in build
+    with Image.open(img_dir / fn) as im:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bhagy\Documents\IA-systems\Assignment_1\.venv\Lib\site-packages\PIL\Image.py", line 3654, in open
+    fp = builtins.open(filename, "rb")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data\\kitti\\training\\image_2\\000000.png'
+coco chain done 2026-10-30T22:11:43
+===== tv:fasterrcnn_resnet50_fpn_v2  2026-10-30T22:11:43 =====
+model: {
+ "name": "fasterrcnn_resnet50_fpn_v2",
+ "family": "Faster R-CNN (two-stage, anchor-based)",
+ "framework": "torchvision 0.26.0+cu128 / torch 2.11.0+cu128",
+ "checkpoint": "FasterRCNN_ResNet50_FPN_V2_Weights.COCO_V1",
+ "input_resolution": "shorter side 800, longer side <= 1333 (aspect preserved)",
+ "score_thr": 0.001,
+ "nms_thr": 0.5,
+ "max_det": 100,
+ "precision": "fp32"
+}
+loading annotations into memory...
+Done (t=0.07s)
+creating index...
+index created!
+  500/3769  mean latency 54.9 ms
+  1000/3769  mean latency 55.0 ms
+  1500/3769  mean latency 55.1 ms
+  2000/3769  mean latency 55.1 ms
+  2500/3769  mean latency 55.1 ms
+  3000/3769  mean latency 55.1 ms
+  3500/3769  mean latency 55.2 ms
+cached 374885 raw detections -> C:\Users\bhagy\Documents\IA-systems\Assignment_1\results\raw\fasterrcnn_resnet50_fpn_v2__kitti.json
+=== fasterrcnn_resnet50_fpn_v2 on kitti [driving3] ===
+loading annotations into memory...
+Done (t=0.07s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=0.49s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=10.36s).
+Accumulating evaluation results...
+DONE (t=1.55s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.237
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.453
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.226
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.160
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.216
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.305
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.104
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.317
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.357
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.347
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.345
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.388
+=== fasterrcnn_resnet50_fpn_v2 on kitti [driving5] ===
+loading annotations into memory...
+Done (t=0.08s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=0.45s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=9.24s).
+Accumulating evaluation results...
+DONE (t=1.89s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.246
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.438
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.252
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.190
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.235
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.316
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.208
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.414
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.442
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.465
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.421
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.458
+saved C:\Users\bhagy\Documents\IA-systems\Assignment_1\results\metrics\fasterrcnn_resnet50_fpn_v2__kitti.json
+===== tv:retinanet_resnet50_fpn_v2  2026-10-30T22:16:13 =====
+model: {
+ "name": "retinanet_resnet50_fpn_v2",
+ "family": "RetinaNet (one-stage, anchor-based)",
+ "framework": "torchvision 0.26.0+cu128 / torch 2.11.0+cu128",
+ "checkpoint": "RetinaNet_ResNet50_FPN_V2_Weights.COCO_V1",
+ "input_resolution": "shorter side 800, longer side <= 1333 (aspect preserved)",
+ "score_thr": 0.001,
+ "nms_thr": 0.5,
+ "max_det": 300,
+ "precision": "fp32"
+}
+loading annotations into memory...
+Done (t=0.07s)
+creating index...
+index created!
+  500/3769  mean latency 39.2 ms
+  1000/3769  mean latency 39.7 ms
+  1500/3769  mean latency 40.1 ms
+  2000/3769  mean latency 40.3 ms
+  2500/3769  mean latency 40.3 ms
+  3000/3769  mean latency 40.3 ms
+  3500/3769  mean latency 40.3 ms
+cached 1130700 raw detections -> C:\Users\bhagy\Documents\IA-systems\Assignment_1\results\raw\retinanet_resnet50_fpn_v2__kitti.json
+=== retinanet_resnet50_fpn_v2 on kitti [driving3] ===
+loading annotations into memory...
+Done (t=0.08s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=1.10s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=17.22s).
+Accumulating evaluation results...
+DONE (t=2.80s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.234
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.456
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.217
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.160
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.213
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.308
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.110
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.332
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.394
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.344
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.387
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.460
+=== retinanet_resnet50_fpn_v2 on kitti [driving5] ===
+loading annotations into memory...
+Done (t=0.08s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=1.05s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=19.18s).
+Accumulating evaluation results...
+DONE (t=3.46s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.227
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.418
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.224
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.235
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.211
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.310
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.208
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.415
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.471
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.456
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.452
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.525
+saved C:\Users\bhagy\Documents\IA-systems\Assignment_1\results\metrics\retinanet_resnet50_fpn_v2__kitti.json
+===== tv:fcos_resnet50_fpn  2026-10-30T22:20:10 =====
+model: {
+ "name": "fcos_resnet50_fpn",
+ "family": "FCOS (one-stage, anchor-free)",
+ "framework": "torchvision 0.26.0+cu128 / torch 2.11.0+cu128",
+ "checkpoint": "FCOS_ResNet50_FPN_Weights.COCO_V1",
+ "input_resolution": "shorter side 800, longer side <= 1333 (aspect preserved)",
+ "score_thr": 0.001,
+ "nms_thr": 0.6,
+ "max_det": 100,
+ "precision": "fp32"
+}
+loading annotations into memory...
+Done (t=0.07s)
+creating index...
+index created!
+  500/3769  mean latency 37.2 ms
+  1000/3769  mean latency 37.4 ms
+  1500/3769  mean latency 37.0 ms
+  2000/3769  mean latency 36.8 ms
+  2500/3769  mean latency 36.7 ms
+  3000/3769  mean latency 36.9 ms
+  3500/3769  mean latency 38.6 ms
+cached 376900 raw detections -> C:\Users\bhagy\Documents\IA-systems\Assignment_1\results\raw\fcos_resnet50_fpn__kitti.json
+=== fcos_resnet50_fpn on kitti [driving3] ===
+loading annotations into memory...
+Done (t=0.07s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=0.51s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=10.32s).
+Accumulating evaluation results...
+DONE (t=1.56s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.230
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.443
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.218
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.159
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.205
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.302
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.113
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.340
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.376
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.341
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.368
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.406
+=== fcos_resnet50_fpn on kitti [driving5] ===
+loading annotations into memory...
+Done (t=0.08s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=0.45s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=9.26s).
+Accumulating evaluation results...
+DONE (t=1.58s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.222
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.407
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.224
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.229
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.191
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.299
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.211
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.414
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.443
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.447
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.422
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.469
+saved C:\Users\bhagy\Documents\IA-systems\Assignment_1\results\metrics\fcos_resnet50_fpn__kitti.json
+===== ul:yolo11n.pt  2026-10-30T22:23:35 =====
+model: {
+ "name": "yolo11n",
+ "family": "YOLO11 (one-stage, anchor-free)",
+ "framework": "ultralytics 8.4.194 / torch 2.11.0+cu128",
+ "checkpoint": "yolo11n.pt",
+ "input_resolution": "letterboxed to 640 (longest side)",
+ "score_thr": 0.001,
+ "nms_thr": 0.7,
+ "max_det": 300,
+ "precision": "fp32",
+ "vocab": null
+}
+loading annotations into memory...
+Done (t=0.07s)
+creating index...
+index created!
+  500/3769  mean latency 8.9 ms
+  1000/3769  mean latency 9.1 ms
+  1500/3769  mean latency 9.5 ms
+  2000/3769  mean latency 9.6 ms
+  2500/3769  mean latency 9.7 ms
+  3000/3769  mean latency 9.8 ms
+  3500/3769  mean latency 9.9 ms
+cached 547077 raw detections -> C:\Users\bhagy\Documents\IA-systems\Assignment_1\results\raw\yolo11n__kitti.json
+=== yolo11n on kitti [driving3] ===
+loading annotations into memory...
+Done (t=0.07s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=0.68s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=16.23s).
+Accumulating evaluation results...
+DONE (t=1.96s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.205
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.410
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.184
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.089
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.177
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.302
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.091
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.270
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.324
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.206
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.317
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.431
+=== yolo11n on kitti [driving5] ===
+loading annotations into memory...
+Done (t=0.09s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=0.43s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=16.07s).
+Accumulating evaluation results...
+DONE (t=2.07s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.168
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.332
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.154
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.087
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.145
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.259
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.133
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.301
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.341
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.238
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.327
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.457
+saved C:\Users\bhagy\Documents\IA-systems\Assignment_1\results\metrics\yolo11n__kitti.json
+===== ul:yolo11m.pt  2026-10-30T22:25:26 =====
+model: {
+ "name": "yolo11m",
+ "family": "YOLO11 (one-stage, anchor-free)",
+ "framework": "ultralytics 8.4.194 / torch 2.11.0+cu128",
+ "checkpoint": "yolo11m.pt",
+ "input_resolution": "letterboxed to 640 (longest side)",
+ "score_thr": 0.001,
+ "nms_thr": 0.7,
+ "max_det": 300,
+ "precision": "fp32",
+ "vocab": null
+}
+loading annotations into memory...
+Done (t=0.07s)
+creating index...
+index created!
+  500/3769  mean latency 12.5 ms
+  1000/3769  mean latency 12.4 ms
+  1500/3769  mean latency 12.4 ms
+  2000/3769  mean latency 12.4 ms
+  2500/3769  mean latency 12.4 ms
+  3000/3769  mean latency 12.4 ms
+  3500/3769  mean latency 12.5 ms
+cached 299140 raw detections -> C:\Users\bhagy\Documents\IA-systems\Assignment_1\results\raw\yolo11m__kitti.json
+=== yolo11m on kitti [driving3] ===
+loading annotations into memory...
+Done (t=0.08s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=0.44s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=9.87s).
+Accumulating evaluation results...
+DONE (t=1.27s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.232
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.448
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.222
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.152
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.211
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.301
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.097
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.301
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.335
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.278
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.333
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.385
+=== yolo11m on kitti [driving5] ===
+loading annotations into memory...
+Done (t=0.09s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=0.45s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=10.05s).
+Accumulating evaluation results...
+DONE (t=1.35s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.215
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.397
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.215
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.221
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.192
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.296
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.181
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.371
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.396
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.380
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.375
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.451
+saved C:\Users\bhagy\Documents\IA-systems\Assignment_1\results\metrics\yolo11m__kitti.json
+===== ul:rtdetr-l.pt  2026-10-30T22:27:09 =====
+model: {
+ "name": "rtdetr-l",
+ "family": "RT-DETR (real-time DETR, transformer, NMS-free)",
+ "framework": "ultralytics 8.4.194 / torch 2.11.0+cu128",
+ "checkpoint": "rtdetr-l.pt",
+ "input_resolution": "letterboxed to 640 (longest side)",
+ "score_thr": 0.001,
+ "nms_thr": null,
+ "max_det": 300,
+ "precision": "fp32",
+ "vocab": null
+}
+loading annotations into memory...
+Done (t=0.07s)
+creating index...
+index created!
+  500/3769  mean latency 26.6 ms
+  1000/3769  mean latency 26.8 ms
+  1500/3769  mean latency 26.8 ms
+  2000/3769  mean latency 26.8 ms
+  2500/3769  mean latency 26.8 ms
+  3000/3769  mean latency 26.9 ms
+  3500/3769  mean latency 26.8 ms
+cached 1130700 raw detections -> C:\Users\bhagy\Documents\IA-systems\Assignment_1\results\raw\rtdetr-l__kitti.json
+=== rtdetr-l on kitti [driving3] ===
+loading annotations into memory...
+Done (t=0.07s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=1.25s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=23.31s).
+Accumulating evaluation results...
+DONE (t=3.19s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.243
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.453
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.233
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.170
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.222
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.312
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.100
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.311
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.359
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.358
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.337
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.385
+=== rtdetr-l on kitti [driving5] ===
+loading annotations into memory...
+Done (t=0.08s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=0.82s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=28.25s).
+Accumulating evaluation results...
+DONE (t=4.01s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.222
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.401
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.220
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.193
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.211
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.293
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.177
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.399
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.449
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.472
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.420
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.469
+saved C:\Users\bhagy\Documents\IA-systems\Assignment_1\results\metrics\rtdetr-l__kitti.json
+===== ul:yolov8s-worldv2.pt  2026-10-30T22:30:35 =====
+model: {
+ "name": "yolov8s-worldv2",
+ "family": "YOLO-World (open-vocabulary YOLO)",
+ "framework": "ultralytics 8.4.194 / torch 2.11.0+cu128",
+ "checkpoint": "yolov8s-worldv2.pt",
+ "input_resolution": "letterboxed to 640 (longest side)",
+ "score_thr": 0.001,
+ "nms_thr": 0.7,
+ "max_det": 300,
+ "precision": "fp32",
+ "vocab": [
+  "person",
+  "bicycle",
+  "car",
+  "motorcycle",
+  "airplane",
+  "bus",
+  "train",
+  "truck",
+  "boat",
+  "traffic light",
+  "fire hydrant",
+  "stop sign",
+  "parking meter",
+  "bench",
+  "bird",
+  "cat",
+  "dog",
+  "horse",
+  "sheep",
+  "cow",
+  "elephant",
+  "bear",
+  "zebra",
+  "giraffe",
+  "backpack",
+  "umbrella",
+  "handbag",
+  "tie",
+  "suitcase",
+  "frisbee",
+  "skis",
+  "snowboard",
+  "sports ball",
+  "kite",
+  "baseball bat",
+  "baseball glove",
+  "skateboard",
+  "surfboard",
+  "tennis racket",
+  "bottle",
+  "wine glass",
+  "cup",
+  "fork",
+  "knife",
+  "spoon",
+  "bowl",
+  "banana",
+  "apple",
+  "sandwich",
+  "orange",
+  "broccoli",
+  "carrot",
+  "hot dog",
+  "pizza",
+  "donut",
+  "cake",
+  "chair",
+  "couch",
+  "potted plant",
+  "bed",
+  "dining table",
+  "toilet",
+  "tv",
+  "laptop",
+  "mouse",
+  "remote",
+  "keyboard",
+  "cell phone",
+  "microwave",
+  "oven",
+  "toaster",
+  "sink",
+  "refrigerator",
+  "book",
+  "clock",
+  "vase",
+  "scissors",
+  "teddy bear",
+  "hair drier",
+  "toothbrush"
+ ]
+}
+loading annotations into memory...
+Done (t=0.07s)
+creating index...
+index created!
+  500/3769  mean latency 11.3 ms
+  1000/3769  mean latency 11.2 ms
+  1500/3769  mean latency 11.2 ms
+  2000/3769  mean latency 11.2 ms
+  2500/3769  mean latency 11.3 ms
+  3000/3769  mean latency 11.3 ms
+  3500/3769  mean latency 11.3 ms
+cached 500913 raw detections -> C:\Users\bhagy\Documents\IA-systems\Assignment_1\results\raw\yolov8s-worldv2__kitti.json
+=== yolov8s-worldv2 on kitti [driving3] ===
+loading annotations into memory...
+Done (t=0.08s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=0.59s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=14.03s).
+Accumulating evaluation results...
+DONE (t=1.76s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.223
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.422
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.213
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.129
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.199
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.312
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.100
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.305
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.352
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.254
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.352
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.428
+=== yolov8s-worldv2 on kitti [driving5] ===
+loading annotations into memory...
+Done (t=0.08s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=0.61s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=13.65s).
+Accumulating evaluation results...
+DONE (t=1.91s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.228
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.410
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.228
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.225
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.211
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.304
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.202
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.393
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.429
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.388
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.413
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.491
+saved C:\Users\bhagy\Documents\IA-systems\Assignment_1\results\metrics\yolov8s-worldv2__kitti.json
+===== ulkitti:yolov8s-worldv2.pt  2026-10-30T22:32:28 =====
+model: {
+ "name": "yolov8s-worldv2_customvocab",
+ "family": "YOLO-World (open-vocabulary YOLO)",
+ "framework": "ultralytics 8.4.194 / torch 2.11.0+cu128",
+ "checkpoint": "yolov8s-worldv2.pt",
+ "input_resolution": "letterboxed to 640 (longest side)",
+ "score_thr": 0.001,
+ "nms_thr": 0.7,
+ "max_det": 300,
+ "precision": "fp32",
+ "vocab": [
+  "car",
+  "van",
+  "truck",
+  "pedestrian",
+  "cyclist",
+  "tram"
+ ]
+}
+loading annotations into memory...
+Done (t=0.08s)
+creating index...
+index created!
+  500/3769  mean latency 10.7 ms
+  1000/3769  mean latency 10.6 ms
+  1500/3769  mean latency 10.7 ms
+  2000/3769  mean latency 10.8 ms
+  2500/3769  mean latency 10.8 ms
+  3000/3769  mean latency 10.8 ms
+  3500/3769  mean latency 10.8 ms
+cached 207339 raw detections -> C:\Users\bhagy\Documents\IA-systems\Assignment_1\results\raw\yolov8s-worldv2_kittiprompts__kitti.json
+=== yolov8s-worldv2_kittiprompts on kitti [driving3] ===
+loading annotations into memory...
+Done (t=0.07s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=0.41s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=10.19s).
+Accumulating evaluation results...
+DONE (t=1.40s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.210
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.413
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.197
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.132
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.202
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.332
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.115
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.322
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.362
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.241
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.368
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.455
+=== yolov8s-worldv2_kittiprompts on kitti [driving5] ===
+loading annotations into memory...
+Done (t=0.09s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=0.42s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=10.19s).
+Accumulating evaluation results...
+DONE (t=1.56s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.230
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.421
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.228
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.248
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.217
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.332
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.217
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.409
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.439
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.370
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.425
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.524
+saved C:\Users\bhagy\Documents\IA-systems\Assignment_1\results\metrics\yolov8s-worldv2_kittiprompts__kitti.json
+ALL DONE 2026-10-30T22:34:06
+fasterrcnn_resnet50_fpn_v2_fp32          kitti_1242x375   median   52.33 ms  fps   19.1  peak alloc     440 MB
+fasterrcnn_resnet50_fpn_v2_fp32          coco_640x426     median   69.10 ms  fps   14.5  peak alloc     627 MB
+fasterrcnn_resnet50_fpn_v2_fp16          kitti_1242x375   median   33.44 ms  fps   29.9  peak alloc     388 MB
+fasterrcnn_resnet50_fpn_v2_fp16          coco_640x426     median   41.24 ms  fps   24.2  peak alloc     530 MB
+retinanet_resnet50_fpn_v2_fp32           kitti_1242x375   median   37.49 ms  fps   26.7  peak alloc     349 MB
+retinanet_resnet50_fpn_v2_fp32           coco_640x426     median   51.68 ms  fps   19.3  peak alloc     365 MB
+retinanet_resnet50_fpn_v2_fp16           kitti_1242x375   median   25.53 ms  fps   39.2  peak alloc     233 MB
+retinanet_resnet50_fpn_v2_fp16           coco_640x426     median   33.85 ms  fps   29.5  peak alloc     275 MB
+fcos_resnet50_fpn_fp32                   kitti_1242x375   median   34.82 ms  fps   28.7  peak alloc     291 MB
+fcos_resnet50_fpn_fp32                   coco_640x426     median   50.94 ms  fps   19.6  peak alloc     403 MB
+fcos_resnet50_fpn_fp16                   kitti_1242x375   median   31.28 ms  fps   32.0  peak alloc     274 MB
+fcos_resnet50_fpn_fp16                   coco_640x426     median   43.48 ms  fps   23.0  peak alloc     373 MB
+yolo11n_fp32                             kitti_1242x375   median    9.79 ms  fps  102.2  peak alloc      42 MB
+yolo11n_fp32                             coco_640x426     median    8.68 ms  fps  115.2  peak alloc      46 MB
+yolo11n_fp16                             kitti_1242x375   median   10.56 ms  fps   94.7  peak alloc      28 MB
+yolo11n_fp16                             coco_640x426     median    9.89 ms  fps  101.1  peak alloc      32 MB
+yolo11m_fp32                             kitti_1242x375   median   12.16 ms  fps   82.2  peak alloc     135 MB
+yolo11m_fp32                             coco_640x426     median   10.89 ms  fps   91.9  peak alloc     157 MB
+yolo11m_fp16                             kitti_1242x375   median   12.51 ms  fps   79.9  peak alloc     108 MB
+yolo11m_fp16                             coco_640x426     median   11.64 ms  fps   85.9  peak alloc     122 MB
+rtdetr-l_fp32                            kitti_1242x375   median   25.24 ms  fps   39.6  peak alloc     213 MB
+rtdetr-l_fp32                            coco_640x426     median   24.71 ms  fps   40.5  peak alloc     213 MB
+rtdetr-l_fp16                            kitti_1242x375   median   22.65 ms  fps   44.1  peak alloc     207 MB
+rtdetr-l_fp16                            coco_640x426     median   21.64 ms  fps   46.2  peak alloc     207 MB
+yolov8s-worldv2_fp32                     kitti_1242x375   median   10.42 ms  fps   95.9  peak alloc     232 MB
+yolov8s-worldv2_fp32                     coco_640x426     median    9.25 ms  fps  108.1  peak alloc     228 MB
+yolov8s-worldv2_fp16                     kitti_1242x375   median   10.98 ms  fps   91.1  peak alloc     198 MB
+yolov8s-worldv2_fp16                     coco_640x426     median    9.93 ms  fps  100.7  peak alloc     206 MB
+saved C:\Users\bhagy\Documents\IA-systems\Assignment_1\results\latency.json
+wrote results/summary.md
+figures -> C:\Users\bhagy\Documents\IA-systems\Assignment_1\results\figures
+REST DONE 2026-10-30T22:36:12

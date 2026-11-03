@@ -1,0 +1,19 @@
+# datasets, downloads, environments
+data/
+downloads/
+.venv/
+__pycache__/
+*.pyc
+
+# model weights (re-downloaded automatically by torchvision / Ultralytics)
+weights/
+*.pt
+*.pth
+
+# cached raw detections: 1.2 GB, exceed GitHub's per-file limit; regenerate with src/evaluate.py
+results/raw/
+
+# scratch
+*.tmp
+Thumbs.db
+.DS_Store

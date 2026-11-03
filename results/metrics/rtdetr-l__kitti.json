@@ -1,0 +1,108 @@
+{
+ "model": {
+  "name": "rtdetr-l",
+  "family": "RT-DETR (real-time DETR, transformer, NMS-free)",
+  "framework": "ultralytics 8.4.194 / torch 2.11.0+cu128",
+  "checkpoint": "rtdetr-l.pt",
+  "input_resolution": "letterboxed to 640 (longest side)",
+  "score_thr": 0.001,
+  "nms_thr": null,
+  "max_det": 300,
+  "precision": "fp32",
+  "vocab": null
+ },
+ "dataset": "kitti",
+ "split": "KITTI 2D object detection 'training' set (7,481 labeled frames); no training done",
+ "n_images": 3769,
+ "timing": {
+  "n_images": 3769,
+  "latency_ms_mean": 26.845790103492412,
+  "latency_ms_median": 26.404899999761255,
+  "latency_ms_p90": 27.371420000781654,
+  "fps_from_median": 37.871758651198896,
+  "wall_s": 126.99921189999986,
+  "peak_gpu_mem_MB": 238.64013671875,
+  "peak_gpu_reserved_MB": 302.0
+ },
+ "metrics": {
+  "driving3": {
+   "mAP": 0.2433445951812901,
+   "AP50": 0.45344645611680884,
+   "AP75": 0.2332946784779402,
+   "AP_small": 0.1700291916434833,
+   "AP_medium": 0.22238647639234208,
+   "AP_large": 0.31170735193466004,
+   "AR_1": 0.09974987303517352,
+   "AR_10": 0.3106915975548273,
+   "AR_100": 0.3591610848515915,
+   "AR_small": 0.3583561918635766,
+   "AR_medium": 0.33656425518188315,
+   "AR_large": 0.3848509494993362,
+   "per_class": {
+    "vehicle": {
+     "AP": 0.5224831561420274,
+     "AP50": 0.8610616853955013,
+     "n_gt": 16895
+    },
+    "person": {
+     "AP": 0.20589768240809034,
+     "AP50": 0.4902094295421785,
+     "n_gt": 2446
+    },
+    "cyclist": {
+     "AP": 0.0016529469937523994,
+     "AP50": 0.009068253412746493,
+     "n_gt": 893
+    }
+   },
+   "n_detections_scored": 796644
+  },
+  "driving5": {
+   "mAP": 0.2224867245663109,
+   "AP50": 0.40113543622009323,
+   "AP75": 0.22024267885766516,
+   "AP_small": 0.19323783448135562,
+   "AP_medium": 0.21077624597047132,
+   "AP_large": 0.29284731736940806,
+   "AR_1": 0.17699174426646674,
+   "AR_10": 0.3993176310174297,
+   "AR_100": 0.4492322494714509,
+   "AR_small": 0.4720552454933381,
+   "AR_medium": 0.4202382730294624,
+   "AR_large": 0.46902601809138017,
+   "per_class": {
+    "car": {
+     "AP": 0.5136919182300327,
+     "AP50": 0.8514942487406736,
+     "n_gt": 16002
+    },
+    "truck": {
+     "AP": 0.16824315527115616,
+     "AP50": 0.25211233288855484,
+     "n_gt": 606
+    },
+    "person": {
+     "AP": 0.20635863106918212,
+     "AP50": 0.4918658951764707,
+     "n_gt": 2446
+    },
+    "cyclist": {
+     "AP": 0.0016531936948726933,
+     "AP50": 0.009069268074673956,
+     "n_gt": 893
+    }
+   },
+   "n_detections_scored": 787314
+  }
+ },
+ "hardware": {
+  "gpu": "NVIDIA GeForce RTX 5060",
+  "cpu": "Intel64 Family 6 Model 198 Stepping 2, GenuineIntel",
+  "os": "Windows-11-10.0.26300-SP0",
+  "python": "3.12.10",
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "cudnn": 91900
+ },
+ "command": "src\\evaluate.py --model ul:rtdetr-l.pt --dataset kitti"
+}

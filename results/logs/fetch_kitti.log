@@ -1,0 +1,186 @@
+﻿3769 frames requested, 3329 still to fetch, 24 workers
+  100/3329 done, 2.57 img/s, eta 20.9 min
+  200/3329 done, 3.48 img/s, eta 15.0 min
+  300/3329 done, 3.72 img/s, eta 13.6 min
+  400/3329 done, 4.03 img/s, eta 12.1 min
+  500/3329 done, 4.26 img/s, eta 11.1 min
+  600/3329 done, 4.26 img/s, eta 10.7 min
+  700/3329 done, 4.24 img/s, eta 10.3 min
+  800/3329 done, 4.26 img/s, eta 9.9 min
+  900/3329 done, 4.25 img/s, eta 9.5 min
+  1000/3329 done, 4.25 img/s, eta 9.1 min
+  1100/3329 done, 4.32 img/s, eta 8.6 min
+  1200/3329 done, 4.35 img/s, eta 8.2 min
+  1300/3329 done, 4.36 img/s, eta 7.8 min
+  1400/3329 done, 4.36 img/s, eta 7.4 min
+  1500/3329 done, 4.40 img/s, eta 6.9 min
+  1600/3329 done, 4.40 img/s, eta 6.5 min
+  1700/3329 done, 4.41 img/s, eta 6.2 min
+  1800/3329 done, 4.45 img/s, eta 5.7 min
+  1900/3329 done, 4.46 img/s, eta 5.3 min
+  2000/3329 done, 4.49 img/s, eta 4.9 min
+  2100/3329 done, 4.52 img/s, eta 4.5 min
+  2200/3329 done, 4.53 img/s, eta 4.2 min
+  2300/3329 done, 4.49 img/s, eta 3.8 min
+  2400/3329 done, 4.49 img/s, eta 3.4 min
+  2500/3329 done, 4.54 img/s, eta 3.0 min
+  2600/3329 done, 4.54 img/s, eta 2.7 min
+  2700/3329 done, 4.52 img/s, eta 2.3 min
+python :   006416: ProtocolError('Connection broken: IncompleteRead(382517 bytes read, 474932 more expected)', 
+IncompleteRead(382517 bytes read, 474932 more expected)) (attempt 0)
+At line:1 char:66
+  006433: ProtocolError('Connection broken: IncompleteRead(243253 bytes read, 608369 more expected)', 
+IncompleteRead(243253 bytes read, 608369 more expected)) (attempt 0)
+  006446: ProtocolError('Connection broken: IncompleteRead(0 bytes read, 824746 more expected)', IncompleteRead(0 
+bytes read, 824746 more expected)) (attempt 0)
+  006451: RemoteIOError("('Connection aborted.', ConnectionAbortedError(10053, 'An established connection was aborted 
+by the software in your host machine', None, 10053, None))") (attempt 0)
+  006407: ProtocolError('Connection broken: IncompleteRead(713271 bytes read, 121586 more expected)', 
+IncompleteRead(713271 bytes read, 121586 more expected)) (attempt 0)
+  006417: ProtocolError('Connection broken: IncompleteRead(487424 bytes read, 363015 more expected)', 
+IncompleteRead(487424 bytes read, 363015 more expected)) (attempt 0)
+  006436: ProtocolError('Connection broken: IncompleteRead(173621 bytes read, 665311 more expected)', 
+IncompleteRead(173621 bytes read, 665311 more expected)) (attempt 0)
+  006409: ProtocolError('Connection broken: IncompleteRead(504373 bytes read, 253336 more expected)', 
+IncompleteRead(504373 bytes read, 253336 more expected)) (attempt 0)
+  006391: ProtocolError('Connection broken: IncompleteRead(643637 bytes read, 199901 more expected)', 
+IncompleteRead(643637 bytes read, 199901 more expected)) (attempt 0)
+  006445: ProtocolError('Connection broken: IncompleteRead(69173 bytes read, 808838 more expected)', 
+IncompleteRead(69173 bytes read, 808838 more expected)) (attempt 0)
+  006442: ProtocolError('Connection broken: IncompleteRead(69632 bytes read, 756854 more expected)', 
+IncompleteRead(69632 bytes read, 756854 more expected)) (attempt 0)
+  006411: ProtocolError('Connection broken: IncompleteRead(452149 bytes read, 439380 more expected)', 
+IncompleteRead(452149 bytes read, 439380 more expected)) (attempt 0)
+  006439: ProtocolError('Connection broken: IncompleteRead(202222 bytes read, 540680 more expected)', 
+IncompleteRead(202222 bytes read, 540680 more expected)) (attempt 0)
+  006427: ProtocolError('Connection broken: IncompleteRead(330752 bytes read, 453112 more expected)', 
+IncompleteRead(330752 bytes read, 453112 more expected)) (attempt 0)
+  006434: ProtocolError('Connection broken: IncompleteRead(208437 bytes read, 685507 more expected)', 
+IncompleteRead(208437 bytes read, 685507 more expected)) (attempt 0)
+  006437: ProtocolError('Connection broken: IncompleteRead(166288 bytes read, 541785 more expected)', 
+IncompleteRead(166288 bytes read, 541785 more expected)) (attempt 0)
+  006440: ProtocolError('Connection broken: IncompleteRead(86581 bytes read, 767886 more expected)', 
+IncompleteRead(86581 bytes read, 767886 more expected)) (attempt 0)
+  006425: ProtocolError('Connection broken: IncompleteRead(433717 bytes read, 454966 more expected)', 
+IncompleteRead(433717 bytes read, 454966 more expected)) (attempt 0)
+  006405: ProtocolError('Connection broken: IncompleteRead(629433 bytes read, 190868 more expected)', 
+IncompleteRead(629433 bytes read, 190868 more expected)) (attempt 0)
+  006441: ProtocolError('Connection broken: IncompleteRead(86581 bytes read, 717754 more expected)', 
+IncompleteRead(86581 bytes read, 717754 more expected)) (attempt 0)
+  006420: ProtocolError('Connection broken: IncompleteRead(364544 bytes read, 316160 more expected)', 
+IncompleteRead(364544 bytes read, 316160 more expected)) (attempt 0)
+  006410: ProtocolError('Connection broken: IncompleteRead(452149 bytes read, 388322 more expected)', 
+IncompleteRead(452149 bytes read, 388322 more expected)) (attempt 0)
+  006444: ProtocolError('Connection broken: IncompleteRead(16949 bytes read, 825246 more expected)', 
+IncompleteRead(16949 bytes read, 825246 more expected)) (attempt 0)
+  006452: RemoteIOError('HTTPSConnectionPool(host=\'s3.eu-central-1.amazonaws.com\', port=443): Max retries exceeded 
+with url: /avg-kitti/data_object_image_2.zip (Caused by 
+NewConnectionError("HTTPSConnection(host=\'s3.eu-central-1.amazonaws.com\', port=443): Failed to establish a new 
+connection: [WinError 10051] A socket operation was attempted to an unreachable network"))') (attempt 0)
+  006532: RemoteIOError("('Connection aborted.', ConnectionAbortedError(10053, 'An established connection was aborted 
+by the software in your host machine', None, 10053, None))") (attempt 0)
+  006520: ProtocolError('Connection broken: IncompleteRead(138805 bytes read, 796466 more expected)', 
+IncompleteRead(138805 bytes read, 796466 more expected)) (attempt 0)
+  006529: ProtocolError('Connection broken: IncompleteRead(74509 bytes read, 671750 more expected)', 
+IncompleteRead(74509 bytes read, 671750 more expected)) (attempt 0)
+  006503: ProtocolError('Connection broken: IncompleteRead(417333 bytes read, 332209 more expected)', 
+IncompleteRead(417333 bytes read, 332209 more expected)) (attempt 0)
+  006506: ProtocolError('Connection broken: IncompleteRead(295477 bytes read, 456383 more expected)', 
+IncompleteRead(295477 bytes read, 456383 more expected)) (attempt 0)
+  006505: ProtocolError('Connection broken: IncompleteRead(208896 bytes read, 630592 more expected)', 
+IncompleteRead(208896 bytes read, 630592 more expected)) (attempt 0)
+  006530: ProtocolError('Connection broken: IncompleteRead(402724 bytes read, 368779 more expected)', 
+IncompleteRead(402724 bytes read, 368779 more expected)) (attempt 0)
+  006515: ProtocolError('Connection broken: IncompleteRead(277045 bytes read, 602371 more expected)', 
+IncompleteRead(277045 bytes read, 602371 more expected)) (attempt 0)
+  006486: ProtocolError('Connection broken: IncompleteRead(521783 bytes read, 373930 more expected)', 
+IncompleteRead(521783 bytes read, 373930 more expected)) (attempt 0)
+  006519: ProtocolError('Connection broken: IncompleteRead(225845 bytes read, 519536 more expected)', 
+IncompleteRead(225845 bytes read, 519536 more expected)) (attempt 0)
+  006521: ProtocolError('Connection broken: IncompleteRead(87040 bytes read, 722955 more expected)', 
+IncompleteRead(87040 bytes read, 722955 more expected)) (attempt 0)
+  006525: ProtocolError('Connection broken: IncompleteRead(103989 bytes read, 719059 more expected)', 
+IncompleteRead(103989 bytes read, 719059 more expected)) (attempt 0)
+  006491: ProtocolError('Connection broken: IncompleteRead(504832 bytes read, 262764 more expected)', 
+IncompleteRead(504832 bytes read, 262764 more expected)) (attempt 0)
+  006507: ProtocolError('Connection broken: IncompleteRead(259639 bytes read, 531177 more expected)', 
+IncompleteRead(259639 bytes read, 531177 more expected)) (attempt 0)
+  006517: ProtocolError('Connection broken: IncompleteRead(138805 bytes read, 655009 more expected)', 
+IncompleteRead(138805 bytes read, 655009 more expected)) (attempt 0)
+  006498: ProtocolError('Connection broken: IncompleteRead(312885 bytes read, 535534 more expected)', 
+IncompleteRead(312885 bytes read, 535534 more expected)) (attempt 0)
+  006497: ProtocolError('Connection broken: IncompleteRead(365109 bytes read, 309786 more expected)', 
+IncompleteRead(365109 bytes read, 309786 more expected)) (attempt 0)
+  006531: ProtocolError('Connection broken: IncompleteRead(173621 bytes read, 528154 more expected)', 
+IncompleteRead(173621 bytes read, 528154 more expected)) (attempt 0)
+  006512: ProtocolError('Connection broken: IncompleteRead(156213 bytes read, 695803 more expected)', 
+IncompleteRead(156213 bytes read, 695803 more expected)) (attempt 0)
+  006484: ProtocolError('Connection broken: IncompleteRead(713269 bytes read, 47206 more expected)', 
+IncompleteRead(713269 bytes read, 47206 more expected)) (attempt 0)
+  006516: ProtocolError('Connection broken: IncompleteRead(260661 bytes read, 525365 more expected)', 
+IncompleteRead(260661 bytes read, 525365 more expected)) (attempt 0)
+  006483: ProtocolError('Connection broken: IncompleteRead(656661 bytes read, 250251 more expected)', 
+IncompleteRead(656661 bytes read, 250251 more expected)) (attempt 0)
+  006496: ProtocolError('Connection broken: IncompleteRead(295477 bytes read, 469234 more expected)', 
+IncompleteRead(295477 bytes read, 469234 more expected)) (attempt 0)
+  006508: ProtocolError('Connection broken: IncompleteRead(295477 bytes read, 553198 more expected)', 
+IncompleteRead(295477 bytes read, 553198 more expected)) (attempt 0)
+  006512: ProtocolError('Connection broken: IncompleteRead(114703 bytes read, 1450875 more expected)', 
+IncompleteRead(114703 bytes read, 1450875 more expected)) (attempt 1)
+  006491: ProtocolError('Connection broken: IncompleteRead(202767 bytes read, 1362811 more expected)', 
+IncompleteRead(202767 bytes read, 1362811 more expected)) (attempt 1)
+  006486: ProtocolError('Connection broken: IncompleteRead(243250 bytes read, 1322328 more expected)', 
+IncompleteRead(243250 bytes read, 1322328 more expected)) (attempt 1)
+  006497: ProtocolError('Connection broken: IncompleteRead(446479 bytes read, 1119099 more expected)', 
+IncompleteRead(446479 bytes read, 1119099 more expected)) (attempt 1)
+  006483: ProtocolError('Connection broken: IncompleteRead(656661 bytes read, 250251 more expected)', 
+IncompleteRead(656661 bytes read, 250251 more expected)) (attempt 1)
+  006503: ProtocolError('Connection broken: IncompleteRead(330290 bytes read, 1235288 more expected)', 
+IncompleteRead(330290 bytes read, 1235288 more expected)) (attempt 1)
+  006515: RemoteIOError("('Connection aborted.', ConnectionAbortedError(10053, 'An established connection was aborted 
+by the software in your host machine', None, 10053, None))") (attempt 1)
+  006517: ProtocolError('Connection broken: IncompleteRead(173621 bytes read, 620193 more expected)', 
+IncompleteRead(173621 bytes read, 620193 more expected)) (attempt 1)
+  006530: ProtocolError('Connection broken: IncompleteRead(156210 bytes read, 1409368 more expected)', 
+IncompleteRead(156210 bytes read, 1409368 more expected)) (attempt 1)
+  006525: ProtocolError('Connection broken: IncompleteRead(521781 bytes read, 301267 more expected)', 
+IncompleteRead(521781 bytes read, 301267 more expected)) (attempt 1)
+  006516: ProtocolError('Connection broken: IncompleteRead(254473 bytes read, 531553 more expected)', 
+IncompleteRead(254473 bytes read, 531553 more expected)) (attempt 1)
+  006521: ProtocolError('Connection broken: IncompleteRead(220175 bytes read, 1345403 more expected)', 
+IncompleteRead(220175 bytes read, 1345403 more expected)) (attempt 1)
+  006507: ProtocolError('Connection broken: IncompleteRead(272399 bytes read, 1293179 more expected)', 
+IncompleteRead(272399 bytes read, 1293179 more expected)) (attempt 1)
+  006529: ProtocolError('Connection broken: IncompleteRead(260663 bytes read, 485596 more expected)', 
+IncompleteRead(260663 bytes read, 485596 more expected)) (attempt 1)
+  006496: ProtocolError('Connection broken: IncompleteRead(0 bytes read, 764711 more expected)', IncompleteRead(0 
+bytes read, 764711 more expected)) (attempt 1)
+  006506: ProtocolError('Connection broken: IncompleteRead(16949 bytes read, 734911 more expected)', 
+IncompleteRead(16949 bytes read, 734911 more expected)) (attempt 1)
+  006519: ProtocolError('Connection broken: IncompleteRead(237583 bytes read, 1327995 more expected)', 
+IncompleteRead(237583 bytes read, 1327995 more expected)) (attempt 1)
+  006498: ProtocolError('Connection broken: IncompleteRead(202767 bytes read, 1362811 more expected)', 
+IncompleteRead(202767 bytes read, 1362811 more expected)) (attempt 1)
+  006531: ProtocolError('Connection broken: IncompleteRead(25376 bytes read, 676399 more expected)', 
+IncompleteRead(25376 bytes read, 676399 more expected)) (attempt 1)
+  006508: RemoteIOError('HTTPSConnectionPool(host=\'s3.eu-central-1.amazonaws.com\', port=443): Max retries exceeded 
+with url: /avg-kitti/data_object_image_2.zip (Caused by 
+NewConnectionError("HTTPSConnection(host=\'s3.eu-central-1.amazonaws.com\', port=443): Failed to establish a new 
+connection: [WinError 10051] A socket operation was attempted to an unreachable network"))') (attempt 1)
+  006533: RemoteIOError('HTTPSConnectionPool(host=\'s3.eu-central-1.amazonaws.com\', port=443): Max retries exceeded 
+with url: /avg-kitti/data_object_image_2.zip (Caused by 
+NewConnectionError("HTTPSConnection(host=\'s3.eu-central-1.amazonaws.com\', port=443): Failed to establish a new 
+connection: [WinError 10051] A socket operation was attempted to an unreachable network"))') (attempt 0)
+  006520: ProtocolError('Connection broken: IncompleteRead(220175 bytes read, 1345403 more expected)', 
+IncompleteRead(220175 bytes read, 1345403 more expected)) (attempt 1)
+  006532: RemoteIOError("('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly 
+closed by the remote host', None, 10054, None))") (attempt 1)
+  006505: RemoteIOError("('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly 
+closed by the remote host', None, 10054, None))") (attempt 1)
+  2800/3329 done, 4.13 img/s, eta 2.1 min
+  2900/3329 done, 4.16 img/s, eta 1.7 min
+  3000/3329 done, 4.18 img/s, eta 1.3 min
+  3100/3329 done, 4.19 img/s, eta 0.9 min
+  3200/3329 done, 4.20 img/s, eta 0.5 min
+  3300/3329 done, 4.22 img/s, eta 0.1 min
+finished 3329 files in 789 s; failed: []
