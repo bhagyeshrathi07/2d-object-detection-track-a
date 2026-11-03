@@ -80,7 +80,7 @@ NUMERIC_CELL = re.compile(r"[\d.,/%→\-–+ ()≥≈*×]*\d[\d.,/%→\-–+ ()�
 CSS = r"""
 @page {
   size: A4;
-  margin: 15mm 14mm 17mm 14mm;
+  margin: 13mm 12mm 15mm 12mm;
   @bottom-center {
     content: counter(page);
     font-family: "Segoe UI", Arial, sans-serif;
@@ -122,12 +122,12 @@ html, body {
   margin: 0; padding: 0;
   color: var(--ink);
   font-family: "Segoe UI", "Calibri", Arial, sans-serif;
-  font-size: 9.5pt;
-  line-height: 1.4;
+  font-size: 8.8pt;
+  line-height: 1.3;
   -webkit-print-color-adjust: exact;
   print-color-adjust: exact;
 }
-p { margin: 0 0 7pt 0; text-align: left; }
+p { margin: 0 0 5pt 0; text-align: left; }
 a { color: var(--accent-2); text-decoration: none; word-break: break-all; }
 strong { color: var(--accent); }
 em { color: inherit; }
@@ -144,72 +144,72 @@ pre {
   border: 1px solid #e4e7ec;
   border-left: 3px solid var(--accent);
   border-radius: 4px;
-  padding: 8pt 10pt;
-  margin: 6pt 0 10pt 0;
-  font-size: 7.8pt;
-  line-height: 1.4;
+  padding: 6pt 8pt;
+  margin: 4pt 0 7pt 0;
+  font-size: 7.4pt;
+  line-height: 1.3;
   white-space: pre-wrap;
   overflow-wrap: anywhere;
   break-inside: avoid;
 }
 pre code { background: none; border: none; padding: 0; font-size: inherit; }
 hr { display: none; }
-ul, ol { margin: 0 0 7pt 0; padding-left: 18pt; }
-li { margin-bottom: 3pt; }
-li > p { margin-bottom: 3pt; }
-li ol { margin-top: 3pt; }
+ul, ol { margin: 0 0 5pt 0; padding-left: 16pt; }
+li { margin-bottom: 2pt; }
+li > p { margin-bottom: 2pt; }
+li ol { margin-top: 2pt; }
+ol.refs { font-size: 7.8pt; columns: 2; column-gap: 14pt; padding-left: 14pt; line-height: 1.28; }
+ol.refs li { break-inside: avoid; margin-bottom: 2pt; }
 
 /* ---------- headings ---------- */
 h1, h2, h3, h4 { font-family: "Segoe UI", Arial, sans-serif; color: var(--accent); line-height: 1.2; break-after: avoid; }
 h2 {
-  font-size: 17pt; font-weight: 600;
-  margin: 0 0 10pt 0;
-  padding-bottom: 5pt;
+  font-size: 15pt; font-weight: 600;
+  margin: 0 0 7pt 0;
+  padding-bottom: 4pt;
   border-bottom: 2px solid var(--accent);
 }
-h2.newpage { margin-top: 20pt; }
-h2.appendix { margin-top: 20pt; }
+h2.newpage { margin-top: 14pt; }
+h2.appendix { margin-top: 14pt; }
 
 /* ---------- figure grid (Figures 1-4) ---------- */
-.figgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 6pt 10pt; margin: 6pt 0 10pt 0; }
+.figgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 4pt 8pt; margin: 4pt 0 7pt 0; }
 .figgrid figure { margin: 0; }
-.figgrid figcaption { font-size: 7.8pt; text-align: left; }
-figure.single { break-inside: avoid; margin: 8pt 0 10pt 0; }
-figure.single img { width: auto; max-width: 100%; max-height: 128mm; margin: 0 auto; }
+.figgrid figcaption { font-size: 7.5pt; text-align: left; }
+figure.single { break-inside: avoid; margin: 6pt 0 7pt 0; }
+figure.single img { width: auto; max-width: 100%; max-height: 86mm; margin: 0 auto; }
 h3 {
-  font-size: 12pt; font-weight: 600;
-  margin: 14pt 0 5pt 0;
+  font-size: 11pt; font-weight: 600;
+  margin: 10pt 0 4pt 0;
   color: var(--accent-2);
 }
 h4 { font-size: 10.5pt; margin: 10pt 0 4pt 0; }
 
 /* ---------- cover ---------- */
-.cover {
-  break-after: page;
-  display: flex; flex-direction: column;
-  min-height: 240mm;
-}
+/* compact title block: the body starts on the same page */
+.cover { margin-bottom: 10pt; padding-bottom: 8pt; border-bottom: 1px solid var(--rule); }
+.cover .kicker-row { display: flex; justify-content: space-between; align-items: baseline; }
 .cover .kicker {
-  font-size: 9.5pt; letter-spacing: 0.18em; text-transform: uppercase;
-  color: var(--accent-2); font-weight: 600; margin-top: 18mm;
+  font-size: 8.5pt; letter-spacing: 0.16em; text-transform: uppercase;
+  color: var(--accent-2); font-weight: 600;
 }
+.cover .date { font-size: 8.5pt; color: var(--muted); }
 .cover h1 {
-  font-size: 27pt; font-weight: 700; margin: 6pt 0 4pt 0; color: var(--accent);
+  font-size: 21pt; font-weight: 700; margin: 4pt 0 2pt 0; color: var(--accent);
 }
-.cover .subtitle { font-size: 13pt; color: var(--muted); margin: 0 0 14pt 0; font-weight: 400; }
-.cover .bar { height: 4px; width: 60mm; background: linear-gradient(90deg, var(--accent), var(--accent-2)); margin: 4pt 0 14pt 0; border-radius: 2px; }
-.cover .abstract { font-size: 10.5pt; line-height: 1.55; text-align: justify; }
-.cover .abstract p { margin-bottom: 8pt; }
+.cover .subtitle { font-size: 11.5pt; color: var(--muted); margin: 0 0 6pt 0; font-weight: 400; }
+.cover .bar { height: 3px; width: 50mm; background: linear-gradient(90deg, var(--accent), var(--accent-2)); margin: 2pt 0 8pt 0; border-radius: 2px; }
+.cover .abstract { font-size: 9.2pt; line-height: 1.4; text-align: justify; }
+.cover .abstract p { margin-bottom: 5pt; }
 .meta {
-  margin-top: 16pt;
-  display: grid; grid-template-columns: 1fr 1fr; gap: 8pt 18pt;
+  margin-top: 6pt;
+  display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 6pt 12pt;
 }
-.meta .item { border-left: 3px solid var(--accent-2); padding: 2pt 0 2pt 8pt; }
-.meta .label { font-size: 7.5pt; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
-.meta .value { font-size: 10pt; color: var(--ink); }
-.cover .note { margin-top: 22pt; font-size: 8.8pt; color: var(--muted); border-top: 1px solid var(--rule); padding-top: 8pt; }
-.cover .note p { margin: 0 0 3pt 0; text-align: left; }
-.cover .date { margin-top: auto; font-size: 9.5pt; color: var(--muted); }
+.meta .item { border-left: 3px solid var(--accent-2); padding: 1pt 0 1pt 6pt; }
+.meta .label { font-size: 6.8pt; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+.meta .value { font-size: 8.4pt; color: var(--ink); line-height: 1.3; }
+.cover .note { margin-top: 7pt; font-size: 8pt; color: var(--muted); }
+.cover .note p { margin: 0; text-align: left; }
 figure img { width: 94%; margin: 0 auto; }
 
 /* ---------- table of contents ---------- */
@@ -226,17 +226,17 @@ figure img { width: 94%; margin: 0 auto; }
 table {
   border-collapse: collapse;
   width: 100%;
-  margin: 5pt 0 10pt 0;
-  font-size: 8.3pt;
-  line-height: 1.28;
+  margin: 4pt 0 7pt 0;
+  font-size: 7.9pt;
+  line-height: 1.25;
   break-inside: auto;
 }
-table.mid { font-size: 8pt; }
-table.wide { font-size: 7.4pt; }
-table.wide td, table.wide th { padding: 2.5pt 2.5pt; }
+table.mid { font-size: 7.7pt; }
+table.wide { font-size: 7.2pt; }
+table.wide td, table.wide th { padding: 2pt 2.5pt; }
 thead { display: table-header-group; }
 tr { break-inside: avoid; }
-th, td { padding: 3.5pt 5pt; border-bottom: 1px solid var(--rule); vertical-align: top; }
+th, td { padding: 2.6pt 4pt; border-bottom: 1px solid var(--rule); vertical-align: top; }
 th {
   background: var(--accent); color: #fff; font-weight: 600;
   text-align: left; border-bottom: none; font-size: 0.95em;
@@ -252,9 +252,9 @@ tbody tr:nth-child(even) td code { background: #fff; }
 th code { color: #fff; background: rgba(255,255,255,0.15); border-color: rgba(255,255,255,0.3); }
 
 /* ---------- figures ---------- */
-figure { margin: 10pt 0 14pt 0; break-inside: avoid; }
+figure { margin: 7pt 0 9pt 0; break-inside: avoid; }
 figure img { width: 100%; height: auto; display: block; border: 1px solid var(--rule); border-radius: 4px; }
-figcaption { font-size: 8.6pt; color: var(--muted); margin-top: 4pt; text-align: justify; }
+figcaption { font-size: 8pt; color: var(--muted); margin-top: 3pt; text-align: justify; }
 figcaption b { color: var(--accent); }
 
 /* ---------- misc ---------- */
@@ -392,6 +392,8 @@ def build_html(md_path: Path) -> str:
     # small tidy-ups: footnote + GT-count lines
     body_html = body_html.replace("<p>* torchvision / Ultralytics model cards.", '<p class="footnote">* torchvision / Ultralytics model cards.')
     body_html = re.sub(r"<p>(GT instances[^<]*)</p>", r'<p class="gt-note">\1</p>', body_html)
+    # two-column, small-print reference list
+    body_html = re.sub(r'(<h2 id="[^"]*references"[^>]*>.*?</h2>\s*)<ol>', r'\1<ol class="refs">', body_html, flags=re.S)
 
     abstract_html = "".join(f"<p>{md.renderInline(p)}</p>" for p in abstract)
     starting_html = f"<p>{md.renderInline(starting)}</p>" if starting else ""
@@ -411,7 +413,7 @@ def build_html(md_path: Path) -> str:
 <style>{CSS}</style>
 </head><body>
 <section class="cover">
-  <div class="kicker">Assignment 1 · Technical report</div>
+  <div class="kicker-row"><div class="kicker">Assignment 1 · Technical report</div><div class="date">{today}</div></div>
   <h1>{main_title}</h1>
   <div class="subtitle">{sub}</div>
   <div class="bar"></div>
@@ -423,7 +425,6 @@ def build_html(md_path: Path) -> str:
     <div class="item"><div class="label">Training</div><div class="value">None — pure zero-shot / domain-transfer evaluation</div></div>
   </div>
   <div class="note">{starting_html}</div>
-  <div class="date">{today}</div>
 </section>
 {body_html}
 </body></html>"""

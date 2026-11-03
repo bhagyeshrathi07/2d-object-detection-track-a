@@ -599,34 +599,12 @@ DONE (t=10.36s).
  Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.357
 ```
 
-**A.2 Metric-file excerpt** — `results/metrics/rtdetr-l__kitti.json` (trimmed;
-these are the RT-DETR-L @640 rows of §2.2 / §2.3):
-
-```json
-{
- "model": {"name": "rtdetr-l", "family": "RT-DETR (real-time DETR, transformer, NMS-free)",
-           "framework": "ultralytics 8.4.194 / torch 2.11.0+cu128", "checkpoint": "rtdetr-l.pt",
-           "input_resolution": "letterboxed to 640 (longest side)",
-           "score_thr": 0.001, "nms_thr": null, "max_det": 300, "precision": "fp32"},
- "dataset": "kitti", "n_images": 3769,
- "timing": {"latency_ms_mean": 26.85, "latency_ms_median": 26.40, "latency_ms_p90": 27.37,
-            "fps_from_median": 37.87, "wall_s": 127.0,
-            "peak_gpu_mem_MB": 238.6, "peak_gpu_reserved_MB": 302.0},
- "metrics": {
-  "driving3": {"mAP": 0.2433, "AP50": 0.4534, "AP75": 0.2333,
-               "AP_small": 0.1700, "AP_medium": 0.2224, "AP_large": 0.3117, "AR_100": 0.3592,
-               "per_class": {"vehicle": {"AP": 0.5225, "AP50": 0.8611, "n_gt": 16895},
-                             "person":  {"AP": 0.2059, "AP50": 0.4902, "n_gt": 2446},
-                             "cyclist": {"AP": 0.0017, "AP50": 0.0091, "n_gt": 893}},
-               "n_detections_scored": 796644},
-  "driving5": {"mAP": 0.2225, "AP50": 0.4011, "...": "..."}
- },
- "hardware": {"gpu": "NVIDIA GeForce RTX 5060", "cpu": "Intel64 Family 6 Model 198 Stepping 2, GenuineIntel",
-              "os": "Windows-11-10.0.26300-SP0", "python": "3.12.10",
-              "torch": "2.11.0+cu128", "cuda": "12.8", "cudnn": 91900},
- "command": "src\\evaluate.py --model ul:rtdetr-l.pt --dataset kitti"
-}
-```
+**A.2 Metric files.** Each `results/metrics/<model>__<dataset>.json` on GitHub
+records, for one run, the model block shown above, the dataset and image count,
+mean / median / p90 latency, peak and reserved GPU memory, every metric of §2
+per taxonomy with per-class AP and GT counts, the hardware and library versions,
+and the exact command line (e.g. `src/evaluate.py --model ul:rtdetr-l.pt --dataset kitti`
+yields the RT-DETR-L @640 rows of §2.2 / §2.3: mAP 0.2433, AP50 0.4534, vehicle AP 0.5225).
 
 **A.3 Independent check.** The three torchvision models reproduce their
 published COCO mAP (46.7 / 41.5 / 39.2) to within 0.2 points (§2.1); a harness
