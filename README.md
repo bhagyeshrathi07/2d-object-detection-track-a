@@ -1,4 +1,4 @@
-# Assignment 1 — 2D Object Detection, Track A (experimental evaluation)
+# Assignment 1 — 2D Object Detection, (experimental evaluation)
 
 Zero-shot evaluation of seven COCO-pretrained detectors (five detector families)
 on COCO val2017 and the KITTI 2D detection val split, on an RTX 5060 (8 GB).
